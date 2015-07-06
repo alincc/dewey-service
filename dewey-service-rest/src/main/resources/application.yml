@@ -1,0 +1,49 @@
+info:
+  app:
+    name: dewey-Service
+    description: Microservice for Dewey
+
+endpoints:
+  restart:
+    enabled: true
+  refresh:
+    enabled: true
+
+server:
+  port: 8181
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  dewey:
+    deweyListPath: /dewey-list.xml
+---
+spring:
+  profiles: dev
+
+---
+spring:
+  profiles: prod
+
+---
+spring:
+  profiles: docker
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+
+---
+spring:
+  profiles: test
+
+  dewey:
+    deweyListPath: /dewey-list-TEST.xml

@@ -1,0 +1,5128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ddc23nor11022013>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>0</class>
+            <heading>Informatikk, informasjonsvitenskap og generell verker</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>00</class>
+            <heading>Informatikk, kunnskap og systemer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>000</class>
+            <heading>Informatikk, informasjonsvitenskap, generelle verker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>001</class>
+            <heading>Kunnskap og vitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>002</class>
+            <heading>Boken</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>003</class>
+            <heading>Systemer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>004</class>
+            <heading>Informatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>005</class>
+            <heading>Dataprogrammering, programmer, data</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>006</class>
+            <heading>Spesielle datametoder</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>01</class>
+            <heading>Bibliografier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>010</class>
+            <heading>Bibliografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>011</class>
+            <heading>Bibliografier og kataloger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>012</class>
+            <heading>Bibliografier og kataloger som gjelder enkeltpersoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>014</class>
+            <heading>Bibliografier og kataloger over anonyme og pseudonyme verker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>015</class>
+            <heading>Bibliografier og kataloger over verker utgitt i bestemte områder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>016</class>
+            <heading>Bibliografier og kataloger over verker om bestemte fag eller emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>017</class>
+            <heading>Generelle bibliografier og kataloger over verker fra en eller flere bestemte samlinger eller over verker som er til salgs</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>02</class>
+            <heading>Bibliotek- og informasjonsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>020</class>
+            <heading>Bibliotek- og informasjonsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>021</class>
+            <heading>Biblioteker, arkiver, informasjonssentre - forbindelser og samarbeid</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>022</class>
+            <heading>Forvaltning av fysiske anlegg</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>023</class>
+            <heading>Personalforvaltning (HR-ledelse)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>025</class>
+            <heading>Operasjoner i biblioteker, arkiver, informasjonssentre</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>026</class>
+            <heading>Biblioteker, arkiver, informasjonssentre knyttet til bestemte fag og emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>027</class>
+            <heading>Generelle biblioteker, arkiver, informasjonssentre</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>028</class>
+            <heading>Lesing og bruk av andre informasjonsmedier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>03</class>
+            <heading>Encyclopedier og leksika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>030</class>
+            <heading>Generelle encyklopedier og leksika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>031</class>
+            <heading>Generelle encyklopedier og leksika på amerikansk-engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>032</class>
+            <heading>Generelle encyklopedier og leksika på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>033</class>
+            <heading>Generelle encyklopedier og leksika på tysk og andre germanske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>034</class>
+            <heading>Generelle encyklopedier og leksika på fransk, oksitansk, katalansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>035</class>
+            <heading>Generelle encyklopedier og leksika på italiensk, dalmatisk, rumensk, retoromansk, sardinsk, korsikansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>036</class>
+            <heading>Generelle encyklopedier og leksika på spansk, portugisisk, galisisk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>037</class>
+            <heading>Generelle encyklopedier og leksika på slaviske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>038</class>
+            <heading>Generelle encyklopedier og leksika på nordiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>039</class>
+            <heading>Generelle encyklopedier og leksika på andre språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>05</class>
+            <heading>Periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>050</class>
+            <heading>Generelle periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>051</class>
+            <heading>Generelle periodika på amerikansk-engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>052</class>
+            <heading>Generelle periodika på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>053</class>
+            <heading>Generelle periodika på andre germanske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>054</class>
+            <heading>Generelle periodika på fransk, oksitansk, katalansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>055</class>
+            <heading>Generelle periodika på italiensk, dalmatisk, rumensk, retoromansk, sardinsk, korsikansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>056</class>
+            <heading>Generelle periodika på spansk, portugisisk, galisisk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>057</class>
+            <heading>Generelle periodika på slaviske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>058</class>
+            <heading>Generelle periodika på nordiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>059</class>
+            <heading>Generelle periodika på andre språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>06</class>
+            <heading>Foreninger, organisasjoner og museer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>060</class>
+            <heading>Generelle organisasjoner og museologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>061</class>
+            <heading>Generelle organisasjoner i Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>062</class>
+            <heading>Generelle organisasjoner på De britiske øyer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>063</class>
+            <heading>Generelle organisasjoner i Tyskland og sentraleuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>064</class>
+            <heading>Generelle organisasjoner i Frankrike og Monaco</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>065</class>
+            <heading>Generelle organisasjoner i Italia, San Marino, Vatikanstaten, Malta</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>066</class>
+            <heading>Generelle organisasjoner i Spania, Andorra, Gibraltar, Portugal</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>067</class>
+            <heading>Generelle organisasjoner i Russland og østeuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>068</class>
+            <heading>Generelle organisasjoner i andre geografiske områder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>069</class>
+            <heading>Museologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>07</class>
+            <heading>Nyhetsmedier, journalistikk og publisering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>070</class>
+            <heading>Dokumentarmedier, undervisningsmedier, nyhetsmedier; journalistikk; publisering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>071</class>
+            <heading>Journalistikk og aviser i Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>072</class>
+            <heading>Journalistikk og aviser på De britiske øyer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>073</class>
+            <heading>Journalistikk og aviser i Tyskland og sentraleuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>074</class>
+            <heading>Journalistikk og aviser i Frankrike og Monaco</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>075</class>
+            <heading>Journalistikk og aviser i Italia, San Marino, Vatikanstaten, Malta</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>076</class>
+            <heading>Journalistikk og aviser i Spania, Andorra, Gibraltar, Portugal</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>077</class>
+            <heading>Journalistikk og aviser i Russland og østeuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>078</class>
+            <heading>Journalistikk og aviser i Norden</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>079</class>
+            <heading>Journalistikk og aviser i andre geografiske områder</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>08</class>
+            <heading>Generelle samlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>080</class>
+            <heading>Generelle samlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>081</class>
+            <heading>Generelle samlinger på amerikansk-engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>082</class>
+            <heading>Generelle samlinger på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>083</class>
+            <heading>Generelle samlinger på andre germanske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>084</class>
+            <heading>Generelle samlinger på fransk, oksitansk, katalansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>085</class>
+            <heading>Generelle samlinger på italiensk, dalmatisk, rumensk, retoromansk, sardinsk, korsikansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>086</class>
+            <heading>Generelle samlinger på spansk, portugisisk, galisisk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>087</class>
+            <heading>Generelle samlinger på slaviske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>088</class>
+            <heading>Generelle samlinger på nordiske språk</heading>
+        </record>        
+        <record>
+            <level>3</level>
+            <class>089</class>
+            <heading>Generelle samlinger på andre språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>09</class>
+            <heading>Håndskrifter og sjeldne bøker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>090</class>
+            <heading>Håndskrifter, manuskripter, sjeldne bøker, annet sjeldent, trykt materiale</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>091</class>
+            <heading>Håndskrifter, manuskripter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>092</class>
+            <heading>Blokkbøker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>093</class>
+            <heading>Inkunabler (paleotyper)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>094</class>
+            <heading>Trykte bøker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>095</class>
+            <heading>Bøker med praktbind (sjelden innbinding)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>096</class>
+            <heading>Bøker med sjeldne illustrasjoner eller trykt på spesielt materiale</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>097</class>
+            <heading>Bøker som er kjent på grunn av sine eiere eller sin opprinnelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>098</class>
+            <heading>Forbudte verker, forfalskninger, svindler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>099</class>
+            <heading>Bøker i sjeldent format</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>1</class>
+            <heading>Filosofi og psykologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>10</class>
+            <heading>Filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>100</class>
+            <heading>Filosofi, parapsykologi og okkultisme, psykologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>101</class>
+            <heading>Teori innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>102</class>
+            <heading>Diverse innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>103</class>
+            <heading>Ordbøker, leksika, konkordanser innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>105</class>
+            <heading>Periodika innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>106</class>
+            <heading>Organisasjoner og ledelse innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>107</class>
+            <heading>Utdanning, forskning, lignende emner innen filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>108</class>
+            <heading>Persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>109</class>
+            <heading>Historie og samlingsbiografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>11</class>
+            <heading>Metafysikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>110</class>
+            <heading>Metafysikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>111</class>
+            <heading>Ontologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>113</class>
+            <heading>Kosmologi (naturfilosofi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>114</class>
+            <heading>Rom</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>115</class>
+            <heading>Tid</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>116</class>
+            <heading>Forandring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>117</class>
+            <heading>Struktur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>118</class>
+            <heading>Kraft og energi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>119</class>
+            <heading>Tall og kvantitet (mengde)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>12</class>
+            <heading>Epistemologi (erkjennelsesteori)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>120</class>
+            <heading>Epistemologi (erkjennelsesteori), kausalitet (årsakssammenheng), mennesket</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>121</class>
+            <heading>Epistemologi (erkjennelsesteori)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>122</class>
+            <heading>Kausalitet (årsakssammenheng)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>123</class>
+            <heading>Determinisme og indeterminisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>124</class>
+            <heading>Teleologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>126</class>
+            <heading>Selvet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>127</class>
+            <heading>Det ubevisste og det underbevisste</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>128</class>
+            <heading>Mennesket</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>129</class>
+            <heading>Individuelle sjelers opprinnelse og bestemmelse</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>13</class>
+            <heading>Parapsykologi og okkultisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>130</class>
+            <heading>Parapsykologi og okkultisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>131</class>
+            <heading>Bruk av parapsykologiske og okkulte metoder for å oppnå personlig velvære, lykke, suksess</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>133</class>
+            <heading>Bestemte emner innen parapsykologi og okkultisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>135</class>
+            <heading>Drømmer og mysterier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>137</class>
+            <heading>Spåing ved hjelp av grafologi (håndskrifttyding)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>138</class>
+            <heading>Fysiognomikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>139</class>
+            <heading>Frenologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>14</class>
+            <heading>Filosofiske skoler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>140</class>
+            <heading>Bestemte filosofiske skoler og retninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>141</class>
+            <heading>Idealisme og lignende systemer og doktriner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>142</class>
+            <heading>Kritisk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>143</class>
+            <heading>Bergsonisme og intuisjonisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>144</class>
+            <heading>Humanisme og lignende systemer og doktriner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>145</class>
+            <heading>Sensualisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>146</class>
+            <heading>Naturalisme og lignende systemer og doktriner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>147</class>
+            <heading>Panteisme og lignende systemer og doktriner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>148</class>
+            <heading>Dogmatisme, eklektisisme, liberalisme, synkretisme, tradisjonalisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>149</class>
+            <heading>Andre filosofiske systemer og doktriner</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>15</class>
+            <heading>Psykologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>150</class>
+            <heading>Psykologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>152</class>
+            <heading>Sansing, bevegelse, emosjoner, fysiologiske drifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>153</class>
+            <heading>Bevisste mentale prosesser og intelligens</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>154</class>
+            <heading>Underbevisste og endrede tilstander og prosesser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>155</class>
+            <heading>Differensialpsykologi og utviklingspsykologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>156</class>
+            <heading>Komparativ (sammenlignende) psykologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>158</class>
+            <heading>Anvendt psykologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>16</class>
+            <heading>Filosofisk logikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>160</class>
+            <heading>Filosofisk logikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>161</class>
+            <heading>Induksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>162</class>
+            <heading>Deduksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>165</class>
+            <heading>Feilslutninger og feilkilder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>166</class>
+            <heading>Syllogismer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>167</class>
+            <heading>Hypoteser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>168</class>
+            <heading>Argumentasjon og overtalelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>169</class>
+            <heading>Analogi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>17</class>
+            <heading>Etikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>170</class>
+            <heading>Etikk (moralfilosofi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>171</class>
+            <heading>Etiske systemer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>172</class>
+            <heading>Politisk etikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>173</class>
+            <heading>Familieetikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>174</class>
+            <heading>Yrkesetikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>175</class>
+            <heading>Etikk vedrørende fritidsvirksomhet, fornøyelser, offentlige opptredener, kommunikasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>176</class>
+            <heading>Etikk vedrørende seksualitet og reproduksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>177</class>
+            <heading>Etikk i mellommenneskelige forhold</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>178</class>
+            <heading>Forbrukeretikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>179</class>
+            <heading>Andre etiske normer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>18</class>
+            <heading>Oldtidens og middelalderens filosofi, østens filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>180</class>
+            <heading>Oldtidens og middelalderens filosofi, østens filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>181</class>
+            <heading>Østens filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>182</class>
+            <heading>Førsokratisk gresk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>183</class>
+            <heading>Sofistisk filosofi, sokratisk filosofi, lignende gresk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>184</class>
+            <heading>Platonsk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>185</class>
+            <heading>Aristotelisk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>186</class>
+            <heading>Skeptisisme og nyplatonisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>187</class>
+            <heading>Epikureisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>188</class>
+            <heading>Stoisk filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>189</class>
+            <heading>Vestens filosofi i middelalderen</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>19</class>
+            <heading>Vestens filosofi i nyere tid</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>190</class>
+            <heading>Vestens filosofi i nyere tid og annen ikke-østlig filosofi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>191</class>
+            <heading>Filosofi i USA og Canada</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>192</class>
+            <heading>Filosofi i De britiske øyer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>193</class>
+            <heading>Filosofi i Tyskland og Østerrike</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>194</class>
+            <heading>Filosofi i Frankrike</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>195</class>
+            <heading>Filosofi i Italia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>196</class>
+            <heading>Filosofi i Spania og Portugal</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>197</class>
+            <heading>Filosofi i Russland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>198</class>
+            <heading>Filosofi i Skandinavia og Finland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>199</class>
+            <heading>Filosofi i andre geografiske områder</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>2</class>
+            <heading>Religion</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>20</class>
+            <heading>Religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>200</class>
+            <heading>Religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>201</class>
+            <heading>Religiøs mytologi, generelle klasser innen religion, interreligiøse forhold og holdninger, sosialteologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>202</class>
+            <heading>Dogmer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>203</class>
+            <heading>Offentlig gudsdyrkelse og andre handlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>204</class>
+            <heading>Religiøse opplevelser, religiøs livsførsel, religiøs praksis</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>205</class>
+            <heading>Religiøs etikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>206</class>
+            <heading>Ledere og organisasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>207</class>
+            <heading>Misjon og religionsundervisning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>208</class>
+            <heading>Kilder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>209</class>
+            <heading>Sekter og reformbevegelser</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>21</class>
+            <heading>Filosofi og teori innen religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>210</class>
+            <heading>Filosofi og teori innen religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>211</class>
+            <heading>Gudsbegrep</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>212</class>
+            <heading>Guds eksistens og egenskaper, gudserkjennelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>213</class>
+            <heading>Skapelsen</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>214</class>
+            <heading>Teodicé</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>215</class>
+            <heading>Naturvitenskap og religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>218</class>
+            <heading>Mennesket</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>22</class>
+            <heading>Bibelen</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>220</class>
+            <heading>Bibelen</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>221</class>
+            <heading>Det gamle testamente (Tanak)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>222</class>
+            <heading>De historiske bøker fra Det gamle testamente</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>223</class>
+            <heading>De poetiske bøker fra Det gamle testamente</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>224</class>
+            <heading>Profetenes bøker i Det gamle testamente</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>225</class>
+            <heading>Det nye testamente</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>226</class>
+            <heading>Evangeliene og Apostlenes gjerninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>227</class>
+            <heading>Brevene</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>228</class>
+            <heading>Johannes' åpenbaring (apokalypsen)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>229</class>
+            <heading>Apokryfer, pseudepigrafer, intertestamentale skrifter</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>23</class>
+            <heading>Kristendom og kristen teologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>230</class>
+            <heading>Kristendom</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>231</class>
+            <heading>Gud</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>232</class>
+            <heading>Jesus Kristus og hans familie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>233</class>
+            <heading>Mennesket</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>234</class>
+            <heading>Frelsen og Guds nåde</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>235</class>
+            <heading>Åndelige vesener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>236</class>
+            <heading>Eskatologi (læren om de siste ting og livet etter døden)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>238</class>
+            <heading>Trosbekjennelser, bekjennelsesskrifter, pakter, katekismer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>239</class>
+            <heading>Apologetikk og polemikk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>24</class>
+            <heading>Kristen livsførsel</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>240</class>
+            <heading>Kristen etikk og oppbyggelig teologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>241</class>
+            <heading>Kristen etikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>242</class>
+            <heading>Oppbyggelig litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>243</class>
+            <heading>Vekkelseslitteratur for enkeltpersoner og familier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>246</class>
+            <heading>Bruk av kunst i kristendom</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>247</class>
+            <heading>Kirkelig innredning og utsmykning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>248</class>
+            <heading>Kristne opplevelser, kristen livsførsel, kristen praksis</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>249</class>
+            <heading>Kristen praksis i familielivet</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>25</class>
+            <heading>Kristent pastoralt arbeid og religiøse ordener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>250</class>
+            <heading>Den lokale kristne kirke og kristne religiøse ordener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>251</class>
+            <heading>Prekenlære (homiletikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>252</class>
+            <heading>Prekentekster</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>253</class>
+            <heading>Pastoralt embete og arbeid (pastoralteologi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>254</class>
+            <heading>Administrasjon av sognet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>255</class>
+            <heading>Religiøse kongregasjoner og ordener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>259</class>
+            <heading>Pastoralt arbeid for familier, for bestemte persongrupper</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>26</class>
+            <heading>Kirkens organisasjon, diakoni og gudsdyrkelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>260</class>
+            <heading>Kristen sosialteologi og kirketeologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>261</class>
+            <heading>Sosialteologi og interreligiøse forhold og holdninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>262</class>
+            <heading>Ekklesiologi (kirken og dens grunnsetninger)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>263</class>
+            <heading>Helligdager, høytider, hellige steder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>264</class>
+            <heading>Offentlig gudsdyrkelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>265</class>
+            <heading>Sakramenter, andre riter og handlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>266</class>
+            <heading>Misjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>267</class>
+            <heading>Foreninger som driver kristent arbeid</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>268</class>
+            <heading>Religionsundervisning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>269</class>
+            <heading>Åndelig fornyelse</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>27</class>
+            <heading>Kristendommens historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>270</class>
+            <heading>Historie, geografisk behandling, biografier knyttet til kristendom</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>271</class>
+            <heading>Religiøse kongregasjoner og ordener innen kirkehistorie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>272</class>
+            <heading>Forfølgelser i generell kirkehistorie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>273</class>
+            <heading>Dogmestrid og kjetteri i generell kirkehistorie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>274</class>
+            <heading>Kristendom i Europa</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>275</class>
+            <heading>Kristendom i Asia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>276</class>
+            <heading>Kristendom i Afrika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>277</class>
+            <heading>Kristendom i Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>278</class>
+            <heading>Kristendom i Sør-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>279</class>
+            <heading>Kristendom i Australasia, stillehavsøyene, atlanterhavsøyene, arktiske øyer, Antarktis</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>28</class>
+            <heading>Kristne trosamfunn</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>280</class>
+            <heading>Trossamfunn og sekter i den kristne kirke</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>281</class>
+            <heading>Oldkirken og orientalske kirker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>282</class>
+            <heading>Den romersk-katolske kirke</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>283</class>
+            <heading>Anglikanske kirker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>284</class>
+            <heading>Protestantiske trossamfunn med europeisk opprinnelse og beslektede organisasjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>285</class>
+            <heading>Presbyterianske kirker, reformerte kirker med sentrum i Amerika, kongregasjonalistkirker, puritanisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>286</class>
+            <heading>Baptistkirker, Stone-Campbells reformasjonsbevegelse, adventistkirker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>287</class>
+            <heading>Metodistkirker; kirker beslektet med metodismen</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>289</class>
+            <heading>Andre trossamfunn og sekter</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>29</class>
+            <heading>Andre religioner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>290</class>
+            <heading>Andre religioner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>292</class>
+            <heading>Klassisk religion (gresk og romersk religion)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>293</class>
+            <heading>Germansk religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>294</class>
+            <heading>Religioner av indisk opprinnelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>295</class>
+            <heading>Zarathustras lære (zoroastrisme, mazdaisme, parsisme)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>296</class>
+            <heading>Jødedom</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>297</class>
+            <heading>Islam, babisme, bahai</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>299</class>
+            <heading>Religioner som ikke har annen plassering</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>3</class>
+            <heading>Samfunnsvitenskap</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>30</class>
+            <heading>Samfunnsvitenskap, sosiologi og antropologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>300</class>
+            <heading>Samfunnsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>301</class>
+            <heading>Sosiologi og antropologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>302</class>
+            <heading>Sosial interaksjon (sosial samhandling)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>303</class>
+            <heading>Sosiale prosesser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>304</class>
+            <heading>Faktorer som påvirker sosial atferd</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>305</class>
+            <heading>Persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>306</class>
+            <heading>Kultur og sosiale institusjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>307</class>
+            <heading>Lokalsamfunn</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>31</class>
+            <heading>Statistikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>310</class>
+            <heading>Generelle statistikksamlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>314</class>
+            <heading>Generell statistikk for Europa</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>315</class>
+            <heading>Generell statistikk for Asia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>316</class>
+            <heading>Generell statistikk for Afrika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>317</class>
+            <heading>Generell statistikk for Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>318</class>
+            <heading>Generell statistikk for Sør-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>319</class>
+            <heading>Generell statistikk for Australasia, stillehavsøyene, atlanterhavsøyene, arktiske øyer, Antarktis</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>32</class>
+            <heading>Statsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>320</class>
+            <heading>Statsvitenskap (politikk og styresmakter)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>321</class>
+            <heading>Regjeringssystemer og statsformer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>322</class>
+            <heading>Statens forhold til organiserte grupper og deres medlemmer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>323</class>
+            <heading>Borgerrettigheter og politiske rettigheter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>324</class>
+            <heading>Politiske prosesser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>325</class>
+            <heading>Internasjonal flytting (migrasjon) og kolonisering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>326</class>
+            <heading>Slaveri og frigjøring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>327</class>
+            <heading>Internasjonale relasjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>328</class>
+            <heading>Den lovgivende prosess</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>33</class>
+            <heading>Samfunnsøkonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>330</class>
+            <heading>Samfunnsøkonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>331</class>
+            <heading>Arbeidsøkonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>332</class>
+            <heading>Finansøkonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>333</class>
+            <heading>Forvaltning av landområder og energi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>334</class>
+            <heading>Samvirke (kooperasjoner)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>335</class>
+            <heading>Sosialisme og lignende systemer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>336</class>
+            <heading>Offentlige finanser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>337</class>
+            <heading>Internasjonal økonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>338</class>
+            <heading>Produksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>339</class>
+            <heading>Makroøkonomi og lignende emner</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>34</class>
+            <heading>Rettsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>340</class>
+            <heading>Rettsvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>341</class>
+            <heading>Folkerett</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>342</class>
+            <heading>Forfatningsrett og forvaltningsrett</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>343</class>
+            <heading>Militærrett, forsvarsrett, offentlig eiendom, offentlige finanser, skatterett, handelsrett, næringslivsrett</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>344</class>
+            <heading>Arbeidsrett, sosialrett, utdanning, kultur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>345</class>
+            <heading>Strafferett</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>346</class>
+            <heading>Privatrett</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>347</class>
+            <heading>Sivil- og straffeprosess og domstoler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>348</class>
+            <heading>Lover, forskrifter, domssamlinger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>349</class>
+            <heading>Bestemte myndigheters, geografiske områders, sosioøkonomiske områders, regionale mellomstatlige organisasjoners rett</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>35</class>
+            <heading>Offentlig administrasjon og militærvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>350</class>
+            <heading>Offentlig administrasjon og militærvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>351</class>
+            <heading>Offentlig administrasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>352</class>
+            <heading>Generelle forhold ved offentlig administrasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>353</class>
+            <heading>Bestemte områder innen offentlig administrasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>354</class>
+            <heading>Offentlig administrasjon av økonomi og miljø</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>355</class>
+            <heading>Militærvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>356</class>
+            <heading>Fotstyrker og deres krigføring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>357</class>
+            <heading>Kavaleristyrker og deres krigføring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>358</class>
+            <heading>Luftforsvar og andre spesialiserte styrker og deres krigføring; ingeniørtropper og lignende tjenester</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>359</class>
+            <heading>Sjøstridskrefter og sjøkrig</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>36</class>
+            <heading>Sosiale problemer og sosiale tjenester</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>360</class>
+            <heading>Sosiale problemer og tjenester; foreninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>361</class>
+            <heading>Sosiale problemer og tjenester</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>362</class>
+            <heading>Sosiale problemer og tjenester knyttet til persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>363</class>
+            <heading>Andre sosiale problemer og tjenester</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>364</class>
+            <heading>Kriminologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>365</class>
+            <heading>Fengselsvesen og lignende institusjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>366</class>
+            <heading>Hemmelige foreninger og selskaper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>367</class>
+            <heading>Generelle foreninger (klubber)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>368</class>
+            <heading>Forsikring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>369</class>
+            <heading>Foreninger (sammenslutninger)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>37</class>
+            <heading>Utdanning og pedagogikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>370</class>
+            <heading>Utdanning, pedagogikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>371</class>
+            <heading>Skoler og deres virksomhet; spesialpedagogikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>372</class>
+            <heading>Førskoleopplæring, opplæring på grunnskolens barnetrinn</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>373</class>
+            <heading>Opplæring på grunnskolens ungdomstrinn og videregående opplæring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>374</class>
+            <heading>Voksenopplæring</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>375</class>
+            <heading>Læreplaner, studieplaner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>378</class>
+            <heading>Høyere utdanning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>379</class>
+            <heading>Utdanningspolitikk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>38</class>
+            <heading>Handel, kommunikasjonsmidler og samferdsel</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>380</class>
+            <heading>Handel, kommunikasjonsmidler, samferdsel</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>381</class>
+            <heading>Handel</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>382</class>
+            <heading>Internasjonal handel (utenrikshandel)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>383</class>
+            <heading>Post</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>384</class>
+            <heading>Kommunikasjonsmidler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>385</class>
+            <heading>Jernbanetransport</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>386</class>
+            <heading>Transport på vannveier i innlandet og fergetransport</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>387</class>
+            <heading>Transport til vanns, luftfart, romfart</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>388</class>
+            <heading>Samferdsel</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>389</class>
+            <heading>Metrologi (mål og vekt) og standardisering</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>39</class>
+            <heading>Skikker, etikette og folkeminne</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>390</class>
+            <heading>Skikker, etikette, folkeminne</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>391</class>
+            <heading>Klesdrakt og personlig utseende</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>392</class>
+            <heading>Skikker knyttet til livssyklus og familieliv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>393</class>
+            <heading>Skikker knyttet til dødsfall</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>394</class>
+            <heading>Generelle samfunnsskikker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>395</class>
+            <heading>Etikette (manerer)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>398</class>
+            <heading>Folkeminne</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>399</class>
+            <heading>Skikker knyttet til krig og diplomati</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>4</class>
+            <heading>Språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>40</class>
+            <heading>Språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>400</class>
+            <heading>Språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>401</class>
+            <heading>Filosofi og teori; internasjonale språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>402</class>
+            <heading>Diverse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>403</class>
+            <heading>Ordbøker, leksika, konkordanser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>404</class>
+            <heading>Spesielle emner vedrørende språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>405</class>
+            <heading>Periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>406</class>
+            <heading>Organisasjoner og ledelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>407</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>408</class>
+            <heading>Persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>409</class>
+            <heading>Geografisk behandling og biografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>41</class>
+            <heading>Lingvistikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>410</class>
+            <heading>Lingvistikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>411</class>
+            <heading>Standardspråkets skriftsystemer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>412</class>
+            <heading>Standardspråkets etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>413</class>
+            <heading>Standardspråkets ordbøker</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>414</class>
+            <heading>Standardspråkets fonologi og fonetikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>415</class>
+            <heading>Standardspråkets grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>417</class>
+            <heading>Dialektologi og historisk lingvistikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>418</class>
+            <heading>Normert språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>419</class>
+            <heading>Tegnspråk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>42</class>
+            <heading>Engelsk og gammelengelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>420</class>
+            <heading>Engelsk og gammelengelsk (angelsaksisk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>421</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til standard engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>422</class>
+            <heading>Standard engelsk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>423</class>
+            <heading>Ordbøker på standard engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>425</class>
+            <heading>Standard engelsk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>427</class>
+            <heading>Historiske og geografiske variasjoner, moderne, ikke-geografiske variasjoner av engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>428</class>
+            <heading>Normert engelsk språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>429</class>
+            <heading>Gammelengelsk (angelsaksisk)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>43</class>
+            <heading>Tysk og beslektede språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>430</class>
+            <heading>Tysk og beslektede språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>431</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til standard tysk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>432</class>
+            <heading>Standard tysk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>433</class>
+            <heading>Ordbøker på standard tysk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>435</class>
+            <heading>Standard tysk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>437</class>
+            <heading>Historiske og geografiske variasjoner, moderne, ikke-geografiske variasjoner av tysk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>438</class>
+            <heading>Normert tysk språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>439</class>
+            <heading>Andre germanske språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>44</class>
+            <heading>Fransk og beslektede språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>440</class>
+            <heading>Fransk og beslektede romanske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>441</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til standard fransk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>442</class>
+            <heading>Standard fransk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>443</class>
+            <heading>Ordbøker på standard fransk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>445</class>
+            <heading>Standard fransk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>447</class>
+            <heading>Historiske og geografiske variasjoner, moderne, ikke-geografiske variasjoner av fransk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>448</class>
+            <heading>Normert fransk språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>449</class>
+            <heading>Oksitansk, katalansk, frankoprovençalsk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>45</class>
+            <heading>Italiensk, rumensk og beslektede språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>450</class>
+            <heading>Italiensk, dalmatisk, rumensk, retoromansk, sardinsk, korsikansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>451</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til standard italiensk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>452</class>
+            <heading>Standard italiensk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>453</class>
+            <heading>Ordbøker på standard italiensk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>455</class>
+            <heading>Standard italiensk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>457</class>
+            <heading>Historiske og geografiske variasjoner, moderne, ikke-geografiske variasjoner av italiensk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>458</class>
+            <heading>Normert italiensk språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>459</class>
+            <heading>Rumensk, retoromansk, sardinsk, korsikansk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>46</class>
+            <heading>Spansk, portugisisk, galisisk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>460</class>
+            <heading>Spansk, portugisisk, galisisk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>461</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til standard spansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>462</class>
+            <heading>Standard spansk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>463</class>
+            <heading>Ordbøker på standard spansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>465</class>
+            <heading>Standard spansk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>467</class>
+            <heading>Historiske og geografiske variasjoner, moderne, ikke-geografiske variasjoner av spansk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>468</class>
+            <heading>Normert spansk språkbruk (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>469</class>
+            <heading>Portugisisk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>47</class>
+            <heading>Latin og italiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>470</class>
+            <heading>Latin og beslektede italiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>471</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til klassisk latin</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>472</class>
+            <heading>Klassisk latinsk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>473</class>
+            <heading>Ordbøker på klassisk latin</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>475</class>
+            <heading>Klassisk latinsk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>477</class>
+            <heading>Gammellatin, postklassisk latin, vulgærlatin</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>478</class>
+            <heading>Normert klassisk latin (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>479</class>
+            <heading>Normert klassisk latin (normativ lingvistikk)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>48</class>
+            <heading>Klassisk gresk og moderne greske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>480</class>
+            <heading>Klassisk gresk og beslektede greske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>481</class>
+            <heading>Skriftsystemer, fonologi, fonetikk knyttet til klassisk gresk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>482</class>
+            <heading>Klassisk gresk etymologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>483</class>
+            <heading>Ordbøker på klassisk gresk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>485</class>
+            <heading>Klassisk gresk grammatikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>487</class>
+            <heading>Preklassisk og postklassisk gresk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>488</class>
+            <heading>Normert klassisk gresk (normert lingvistikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>489</class>
+            <heading>Andre greske språk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>49</class>
+            <heading>Andre språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>490</class>
+            <heading>Andre språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>491</class>
+            <heading>Østindoeuropeiske og keltiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>492</class>
+            <heading>Afroasiatiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>493</class>
+            <heading>Ikke-semittiske afroasiatiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>494</class>
+            <heading>Altaiske, uralske, hyperboreiske, dravidiske språk, diverse sørasiatiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>495</class>
+            <heading>Øst- og sørøstasiatiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>496</class>
+            <heading>Afrikanske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>497</class>
+            <heading>Nordamerikanske urbefolkningers språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>498</class>
+            <heading>Søramerikanske urbefolkningers språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>499</class>
+            <heading>Ikke-austronesiske språk i Oseania, austronesiske språk, diverse språk</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>5</class>
+            <heading>Naturvitenskap</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>50</class>
+            <heading>Naturvitenskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>500</class>
+            <heading>Naturvitenskap og matematikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>501</class>
+            <heading>Filosofi og teori</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>502</class>
+            <heading>Diverse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>503</class>
+            <heading>Ordbøker, leksika, konkordanser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>505</class>
+            <heading>Periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>506</class>
+            <heading>Organisasjoner og ledelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>507</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>508</class>
+            <heading>Naturhistorie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>509</class>
+            <heading>Historie, geografisk behandling, biografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>51</class>
+            <heading>Matematikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>510</class>
+            <heading>Matematikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>511</class>
+            <heading>Generelle matematiske prinsipper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>512</class>
+            <heading>Algebra</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>513</class>
+            <heading>Aritmetikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>514</class>
+            <heading>Topologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>515</class>
+            <heading>Matematisk analyse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>516</class>
+            <heading>Geometri</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>518</class>
+            <heading>Numerisk analyse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>519</class>
+            <heading>Sannsynlighetsregning og anvendt matematikk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>52</class>
+            <heading>Astronomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>520</class>
+            <heading>Astronomi og beslektede vitenskaper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>521</class>
+            <heading>Celest mekanikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>522</class>
+            <heading>Teknikker, arbeidsmetoder, apparater, utstyr, materialer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>523</class>
+            <heading>Bestemte himmellegemer og fenomener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>525</class>
+            <heading>Jorda (astronomisk geografi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>526</class>
+            <heading>Matematisk geografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>527</class>
+            <heading>Astronomisk navigasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>528</class>
+            <heading>Efemerider</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>529</class>
+            <heading>Tidsregning (kronologi)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>53</class>
+            <heading>Fysikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>530</class>
+            <heading>Fysikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>531</class>
+            <heading>Klassisk mekanikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>532</class>
+            <heading>Fluidmekanikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>533</class>
+            <heading>Pneumatikk (gassers mekanikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>534</class>
+            <heading>Lyd og lignende svingninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>535</class>
+            <heading>Lys og lignende stråling</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>536</class>
+            <heading>Varme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>537</class>
+            <heading>Elektrisitet og elektronikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>538</class>
+            <heading>Magnetisme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>539</class>
+            <heading>Moderne fysikk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>54</class>
+            <heading>Kjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>540</class>
+            <heading>Kjemi og beslektede vitenskaper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>541</class>
+            <heading>Fysikalsk kjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>542</class>
+            <heading>Teknikker, arbeidsmetoder, apparater, utstyr, materialer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>543</class>
+            <heading>Analytisk kjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>546</class>
+            <heading>Uorganisk kjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>547</class>
+            <heading>Organisk kjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>548</class>
+            <heading>Krystallografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>549</class>
+            <heading>Mineralogi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>55</class>
+            <heading>Geovitenskapelige fag og geologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>550</class>
+            <heading>Geovitenskapelige fag</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>551</class>
+            <heading>Geologi, hydrologi, meteorologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>552</class>
+            <heading>Petrologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>553</class>
+            <heading>Økonomisk geologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>554</class>
+            <heading>Geovitenskap vedrørende Europa</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>555</class>
+            <heading>Geovitenskap vedrørende Asia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>556</class>
+            <heading>Geovitenskap vedrørende Afrika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>557</class>
+            <heading>Geovitenskap vedrørende Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>558</class>
+            <heading>Geovitenskap vedrørende Sør-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>559</class>
+            <heading>Geovitenskap vedrørende Geovitenskap vedrørende Australasia, stillehavsøyene, atlanterhavsøyene, de arktiske øyene, Antarktis, himmellegemer utenfor jorda</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>56</class>
+            <heading>Fossiler og forhistorisk liv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>560</class>
+            <heading>Paleontologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>561</class>
+            <heading>Paleobotanikk; fossile mikroorganismer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>562</class>
+            <heading>Fossile virvelløse dyr (invertebrater)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>563</class>
+            <heading>Diverse fossile virvelløse dyr i sjøen og i strandbeltet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>564</class>
+            <heading>Fossile Mollusca (bløtdyr) og Molluscoidea</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>565</class>
+            <heading>Fossile Arthropoda (leddyr)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>566</class>
+            <heading>Fossile Chordata (ryggstrengdyr)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>567</class>
+            <heading>Fossile vekselvarme virveldyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>568</class>
+            <heading>Fossile Aves (fugler)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>569</class>
+            <heading>Fossile Mammalia (pattedyr)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>57</class>
+            <heading>Biologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>570</class>
+            <heading>Biologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>571</class>
+            <heading>Fysiologi og lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>572</class>
+            <heading>Biokjemi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>573</class>
+            <heading>Bestemte fysiologiske systemer hos dyr, regional histologi og fysiologi hos dyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>575</class>
+            <heading>Bestemte deler av og fysiologiske systemer hos planter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>576</class>
+            <heading>Genetikk og evolusjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>577</class>
+            <heading>Økologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>578</class>
+            <heading>Naturhistorie for organismer og lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>579</class>
+            <heading>Naturhistorie for mikroorganismer, sopper, alger</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>58</class>
+            <heading>Planter (botanikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>580</class>
+            <heading>Planter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>581</class>
+            <heading>Bestemte emner innen naturhistorie for planter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>582</class>
+            <heading>Planter som kjennetegnes ved bestemte vegetative karakteristika og ved bestemte blomster</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>583</class>
+            <heading>Magnoliopsida (tofrøbladete planter)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>584</class>
+            <heading>Liliopsida (enfrøbladete planter)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>585</class>
+            <heading>Pinophyta (nakenfrøete planter)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>586</class>
+            <heading>Sporeplanter (planter uten frø)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>587</class>
+            <heading>Pteridophyta (karsporeplanter)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>588</class>
+            <heading>Bryophyta (moser)</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>59</class>
+            <heading>Dyr (zoologi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>590</class>
+            <heading>Dyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>591</class>
+            <heading>Bestemte emner innen naturhistorie for dyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>592</class>
+            <heading>Virvelløse dyr (invertebrater)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>593</class>
+            <heading>Diverse virvelløse dyr i sjøen og i strandbeltet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>594</class>
+            <heading>Mollusca (bløtdyr) og Molluscoidea</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>595</class>
+            <heading>Arthropoda (leddyr)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>596</class>
+            <heading>Chordata (ryggstrengdyr)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>597</class>
+            <heading>Vekselvarme virveldyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>598</class>
+            <heading>Aves (fugler)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>599</class>
+            <heading>Mammalia (pattedyr)</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>6</class>
+            <heading>Teknologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>60</class>
+            <heading>Teknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>600</class>
+            <heading>Teknologi (anvendt vitenskap)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>601</class>
+            <heading>Filosofi og teori</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>602</class>
+            <heading>Diverse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>603</class>
+            <heading>Ordbøker, leksika, konkordanser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>604</class>
+            <heading>Teknisk tegning, teknologi vedrørende farlige stoffer; persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>605</class>
+            <heading>Periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>606</class>
+            <heading>Organisasjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>607</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>608</class>
+            <heading>Patenter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>609</class>
+            <heading>Historie, geografisk behandling, biografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>61</class>
+            <heading>Medisin og helse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>610</class>
+            <heading>Medisin og helse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>611</class>
+            <heading>Menneskets anatomi, cellebiologi (cytologi), vevsbiologi (histologi)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>612</class>
+            <heading>Menneskets fysiologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>613</class>
+            <heading>Personlig helse og sikkerhet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>614</class>
+            <heading>Rettsmedisin; sykdomsforekomst, skadeforekomst; offentlig forebyggende medisin</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>615</class>
+            <heading>Farmakologi og behandlingsformer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>616</class>
+            <heading>Sykdommer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>617</class>
+            <heading>Kirurgi, medisin inndelt etter kroppsregioner, tannlegevitenskap (odontologi), oftalmologi, otologi, audiologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>618</class>
+            <heading>Gynekologi, obstetrikk, pediatri, geriatri</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>62</class>
+            <heading>Teknikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>620</class>
+            <heading>Teknikk (ingeniørfag) og lignende fagområder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>621</class>
+            <heading>Anvendt fysikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>622</class>
+            <heading>Gruvedrift og lignende operasjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>623</class>
+            <heading>Militær og nautisk teknikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>624</class>
+            <heading>Bygg- og anleggsvirksomhet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>625</class>
+            <heading>Teknikk for jernbaner og veier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>627</class>
+            <heading>Vannbyggingsteknikk (hydraulisk teknikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>628</class>
+            <heading>Sanitærteknikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>629</class>
+            <heading>Andre områder innen teknikk</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>63</class>
+            <heading>Landbruk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>630</class>
+            <heading>Landbruk og lignende fagområder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>631</class>
+            <heading>Bestemte teknikker; apparater, utstyr, materialer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>632</class>
+            <heading>Skader, sykdommer, skadedyrangrep på planter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>633</class>
+            <heading>Avlinger fra jordbruk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>634</class>
+            <heading>Frukthager, frukt, skogbruk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>635</class>
+            <heading>Avlinger fra hagebruk (hortikultur)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>636</class>
+            <heading>Husdyrhold</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>637</class>
+            <heading>Framstilling av meieriprodukter og lignende</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>638</class>
+            <heading>Insektavl</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>639</class>
+            <heading>Jakt, fiske, vern av biologiske ressurser, lignende fagområder</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>64</class>
+            <heading>Husholdning og familieliv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>640</class>
+            <heading>Husholdning og familieliv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>641</class>
+            <heading>Mat og drikke</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>642</class>
+            <heading>Måltider og servering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>643</class>
+            <heading>Boliger og husholdningsutstyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>644</class>
+            <heading>Oppvarming, belysning, ventilasjon, vannforsyning i husholdninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>645</class>
+            <heading>Hjeminnredning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>646</class>
+            <heading>Søm, klær, privatliv og familieliv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>647</class>
+            <heading>Offentlige husholdninger (institusjonshushold)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>648</class>
+            <heading>Husstell</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>649</class>
+            <heading>Oppfostring av barn; hjemmepleie av syke og funksjonshemmede</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>65</class>
+            <heading>Administrasjon og PR-virksomhet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>650</class>
+            <heading>Ledelse og administrative funksjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>651</class>
+            <heading>Kontorfunksjoner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>652</class>
+            <heading>Arbeidsoperasjoner knyttet til skriftlig kommunikasjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>653</class>
+            <heading>Stenografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>657</class>
+            <heading>Regnskap</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>658</class>
+            <heading>Ledelse og bedriftsøkonomi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>659</class>
+            <heading>Reklame og PR-virksomhet</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>66</class>
+            <heading>Kjemiteknikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>660</class>
+            <heading>Kjemiteknikk og lignende teknologier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>661</class>
+            <heading>Teknologi vedrørende industrikjemikalier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>662</class>
+            <heading>Teknologi vedrørende eksplosiver, brennstoffer, lignende produkter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>663</class>
+            <heading>Drikkevareteknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>664</class>
+            <heading>Næringsmiddelteknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>665</class>
+            <heading>Teknologi vedrørende oljer, fettstoffer, voks, gasser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>666</class>
+            <heading>Keramisk teknologi og lignende teknologier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>667</class>
+            <heading>Rensing, farging, overflatebehandling og lignende teknologier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>668</class>
+            <heading>Andre organiske produkters teknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>669</class>
+            <heading>Metallurgi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>67</class>
+            <heading>Industriell produksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>670</class>
+            <heading>Industriell produksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>671</class>
+            <heading>Metallindustriprosesser og primærprodukter av metall</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>672</class>
+            <heading>Jern, stål, andre jernlegeringer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>673</class>
+            <heading>Ikke-jernholdige metaller</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>674</class>
+            <heading>Trelastproduksjon, treprodukter, kork</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>675</class>
+            <heading>Lærindustri og pelsindustri</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>676</class>
+            <heading>Papirmasseteknologi og papirteknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>677</class>
+            <heading>Tekstiler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>678</class>
+            <heading>Elastomerer og elastomerprodukter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>679</class>
+            <heading>Produkter laget av andre bestemte typer råstoffer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>68</class>
+            <heading>Produksjon med bestemte bruksområder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>680</class>
+            <heading>Framstilling av produkter med bestemte bruksområder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>681</class>
+            <heading>Presisjonsinstrumenter og andre presisjonsapparater</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>682</class>
+            <heading>Smedhåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>683</class>
+            <heading>Jernvarer og husholdningsutstyr og -apparater</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>684</class>
+            <heading>Innredning og hobbyverksteder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>685</class>
+            <heading>Lærvarer og pelsvarer og lignende produkter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>686</class>
+            <heading>Trykking og lignende virksomhet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>687</class>
+            <heading>Klær og tilbehør</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>688</class>
+            <heading>Andre sluttprodukter og emballeringsteknologi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>69</class>
+            <heading>Byggevirksomhet</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>690</class>
+            <heading>Husbygging</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>691</class>
+            <heading>Byggematerialer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>692</class>
+            <heading>Tilleggsarbeider ved bygging</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>693</class>
+            <heading>Bygging med bestemte typer materialer og for bestemte formål</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>694</class>
+            <heading>Bygging med tre</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>695</class>
+            <heading>Taktekking</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>696</class>
+            <heading>VVS (varme-, ventilasjons- og sanitærteknikk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>697</class>
+            <heading>Oppvarming, ventilasjon, klimaanlegg</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>698</class>
+            <heading>Annet bygningsarbeid (sluttarbeid)</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>7</class>
+            <heading>Kunst og fritid</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>70</class>
+            <heading>Kunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>700</class>
+            <heading>Kunst og underholdning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>701</class>
+            <heading>Filosofi og teori innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>702</class>
+            <heading>Diverse innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>703</class>
+            <heading>Ordbøker, leksika, konkordanser innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>704</class>
+            <heading>Spesielle emner innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>705</class>
+            <heading>Periodika innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>706</class>
+            <heading>Organisasjoner og ledelse innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>707</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner innen arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>708</class>
+            <heading>Gallerier, museer, private samlinger av arkitektur, billedkunst, kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>709</class>
+            <heading>Historie, geografisk behandling, biografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>71</class>
+            <heading>Landskapsutforming og arealplanlegging</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>710</class>
+            <heading>Arealplanlegging og landskapsarkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>711</class>
+            <heading>Arealplanlegging</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>712</class>
+            <heading>Landskapsarkitektur (landskapsutforming)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>713</class>
+            <heading>Landskapsarkitektur for trafikkårer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>714</class>
+            <heading>Vann i landskapsarkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>715</class>
+            <heading>Vedplanter (treaktige planter) i landskapsarkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>716</class>
+            <heading>Urteplanter (urteaktige planter) i landskapsarkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>717</class>
+            <heading>Strukturer i landskapsarkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>718</class>
+            <heading>Landskapsutforming for kirkegårder (gravlunder)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>719</class>
+            <heading>Naturlandskap</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>72</class>
+            <heading>Arkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>720</class>
+            <heading>Arkitektur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>721</class>
+            <heading>Arkitektoniske materialer og bygningselementer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>722</class>
+            <heading>Oldtidens arkitektur fram til ca. 300</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>723</class>
+            <heading>Arkitektur fra ca. 300 fram til 1399</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>724</class>
+            <heading>Arkitektur fra 1400</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>725</class>
+            <heading>Offentlige byggverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>726</class>
+            <heading>Bygninger for religiøse og lignende formål</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>727</class>
+            <heading>Bygninger for utdannings- og forskningsformål</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>728</class>
+            <heading>Boliger og lignende bygninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>729</class>
+            <heading>Utforming og utsmykning av byggverk og tilbehør</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>73</class>
+            <heading>Skulptur; keramisk kunst og metallkunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>730</class>
+            <heading>Skulptur og lignende kunstformer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>731</class>
+            <heading>Arbeidsprosesser, former, motiver innen skulptur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>732</class>
+            <heading>Skulptur fra tidligste tider fram til ca. 500, skulptur i kulturer uten skriftspråk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>733</class>
+            <heading>Gresk, etruskisk, romersk skulptur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>734</class>
+            <heading>Skulptur fra ca. 500 fram til 1399</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>735</class>
+            <heading>Skulptur fra 1400</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>736</class>
+            <heading>Utskjæring og utskjæringer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>737</class>
+            <heading>Numismatikk og sigillografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>738</class>
+            <heading>Keramisk kunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>739</class>
+            <heading>Metallkunst</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>74</class>
+            <heading>Tegnekunst og kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>740</class>
+            <heading>Grafiske kunstarter og kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>741</class>
+            <heading>Tegnekunst og tegninger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>742</class>
+            <heading>Perspektiv i tegnekunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>743</class>
+            <heading>Tegning og tegninger inndelt etter motiv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>745</class>
+            <heading>Kunsthåndverk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>746</class>
+            <heading>Tekstilkunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>747</class>
+            <heading>Dekorativ innredning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>748</class>
+            <heading>Glass</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>749</class>
+            <heading>Møbler og tilbehør</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>75</class>
+            <heading>Malerkunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>750</class>
+            <heading>Malerkunst og malerier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>751</class>
+            <heading>Teknikker, arbeidsmetoder, apparater, utstyr, materialer, former</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>752</class>
+            <heading>Farger</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>753</class>
+            <heading>Symbolikk, allegorier, mytologi, legender</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>754</class>
+            <heading>Sjangermaleri</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>755</class>
+            <heading>Religion</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>757</class>
+            <heading>Menneskeskikkelser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>758</class>
+            <heading>Natur, arkitektur og bylandskap, andre bestemte motiver</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>759</class>
+            <heading>Historie, geografisk behandling, biografier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>76</class>
+            <heading>Trykkekunst og grafiske blad</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>760</class>
+            <heading>Trykkekunst og grafiske blad</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>761</class>
+            <heading>Høytrykk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>763</class>
+            <heading>Litografi (plantrykk)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>764</class>
+            <heading>Fargelitografi og serigrafi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>765</class>
+            <heading>Metallgravering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>766</class>
+            <heading>Mezzotint, akvatint, lignende prosesser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>767</class>
+            <heading>Etsing og kaldnålsradering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>769</class>
+            <heading>Grafiske blad</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>77</class>
+            <heading>Fotografi, datakunst, film, video</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>770</class>
+            <heading>Fotografering, datakunst, kinematografi, videografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>771</class>
+            <heading>Teknikker, arbeidsmetoder, apparater, utstyr, materialer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>772</class>
+            <heading>Metallsaltprosesser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>773</class>
+            <heading>Pigmentprosesser for trykking</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>774</class>
+            <heading>Holografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>776</class>
+            <heading>Datakunst (digital kunst)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>777</class>
+            <heading>Kinematografi og videografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>778</class>
+            <heading>Bestemte fagområder og bestemte typer fotografering</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>779</class>
+            <heading>Fotografiske bilder</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>78</class>
+            <heading>Musikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>780</class>
+            <heading>Musikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>781</class>
+            <heading>Generelle prinsipper og musikalske former</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>782</class>
+            <heading>Vokalmusikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>783</class>
+            <heading>Musikk for enkeltstemmer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>784</class>
+            <heading>Instrumenter og instrumentalensembler og musikk for disse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>785</class>
+            <heading>Ensembler med bare ett instrument på hver stemme</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>786</class>
+            <heading>Tasteinstrumenter, mekaniske instrumenter, elektroniske instrumenter, slagverkinstrumenter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>787</class>
+            <heading>Strengeinstrumenter (kordofoner)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>788</class>
+            <heading>Blåseinstrumenter (aerofoner)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>789</class>
+            <heading>Komponister og musikktradisjoner</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>79</class>
+            <heading>Sport, spill og underholdning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>790</class>
+            <heading>Fritidsaktiviteter, sport, utøvende kunst</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>791</class>
+            <heading>Offentlige opptredener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>792</class>
+            <heading>Sceneopptredener</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>793</class>
+            <heading>Innendørs spill, leker og underholdning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>794</class>
+            <heading>Innendørs ferdighetsspill</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>795</class>
+            <heading>Hasardspill</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>796</class>
+            <heading>Sport, idrett, friluftsliv</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>797</class>
+            <heading>Vannsport og luftsport</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>798</class>
+            <heading>Hestesport og kappløp med dyr</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>799</class>
+            <heading>Fiske, jakt, skyttersport</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>8</class>
+            <heading>Litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>80</class>
+            <heading>Litteratur, litterær komposisjon og kritikk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>800</class>
+            <heading>Litteratur og litterær komposisjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>801</class>
+            <heading>Filosofi og teori</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>802</class>
+            <heading>Diverse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>803</class>
+            <heading>Ordbøker, leksika, konkordanser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>805</class>
+            <heading>Periodika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>806</class>
+            <heading>Organisasjoner og ledelse</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>807</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>808</class>
+            <heading>Litterær komposisjon og samlinger av litterære tekster fra mer enn to litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>809</class>
+            <heading>Historie, beskrivelse, kritikk av mer enn to litteraturer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>81</class>
+            <heading>Amerikansk litteratur på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>810</class>
+            <heading>Amerikansk litteratur på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>811</class>
+            <heading>Amerikansk poesi på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>812</class>
+            <heading>Amerikansk drama på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>813</class>
+            <heading>Amerikansk fiksjon på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>814</class>
+            <heading>Amerikanske essayer på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>815</class>
+            <heading>Amerikanske taler på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>816</class>
+            <heading>Amerikanske brev på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>817</class>
+            <heading>Amerikansk humor og satire på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>818</class>
+            <heading>Amerikanske diverse skrifter på engelsk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>819</class>
+            <heading>Engelskspråklig litteratur fra andre amerikanske stater, som ikke er vektlagt lokalt</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>82</class>
+            <heading>Engelsk og gammelengelsk litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>820</class>
+            <heading>Engelsk og gammelengelsk (angelsaksisk) litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>821</class>
+            <heading>Engelsk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>822</class>
+            <heading>Engelsk drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>823</class>
+            <heading>Engelsk fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>824</class>
+            <heading>Engelske essayer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>825</class>
+            <heading>Engelske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>826</class>
+            <heading>Engelske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>827</class>
+            <heading>Engelsk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>828</class>
+            <heading>Engelske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>829</class>
+            <heading>Gammelengelsk (angelsaksisk) litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>83</class>
+            <heading>Tysk og beslektede litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>830</class>
+            <heading>Tysk litteratur og beslektede språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>831</class>
+            <heading>Tysk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>832</class>
+            <heading>Tysk drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>833</class>
+            <heading>Tysk fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>834</class>
+            <heading>Tyske essayer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>835</class>
+            <heading>Tyske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>836</class>
+            <heading>Tyske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>837</class>
+            <heading>Tysk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>838</class>
+            <heading>Tyske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>839</class>
+            <heading>Andre germanske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>84</class>
+            <heading>Fransk og beslektede litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>840</class>
+            <heading>Fransk litteratur og beslektede romanske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>841</class>
+            <heading>Fransk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>842</class>
+            <heading>Fransk drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>843</class>
+            <heading>Fransk fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>844</class>
+            <heading>Franske essayer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>845</class>
+            <heading>Franske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>846</class>
+            <heading>Franske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>847</class>
+            <heading>Fransk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>848</class>
+            <heading>Franske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>849</class>
+            <heading>Oksitansk, katalansk, frankoprovençalsk litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>85</class>
+            <heading>Italiensk, rumensk og beslektede litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>850</class>
+            <heading>Italiensk, dalmatisk, rumensk, retoromansk, sardinsk, korsikansk litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>851</class>
+            <heading>Italiensk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>852</class>
+            <heading>Italiensk drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>853</class>
+            <heading>Italiensk fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>854</class>
+            <heading>Italienske essayer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>855</class>
+            <heading>Italienske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>856</class>
+            <heading>Italienske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>857</class>
+            <heading>Italiensk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>858</class>
+            <heading>Italienske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>859</class>
+            <heading>Rumensk, retoromansk, sardinsk, korsikansk litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>86</class>
+            <heading>Spansk, portugisisk, galisisk litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>860</class>
+            <heading>Spansk, portugisisk, galisisk litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>861</class>
+            <heading>Spansk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>862</class>
+            <heading>Spansk drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>863</class>
+            <heading>Spansk fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>864</class>
+            <heading>Spanske essayer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>865</class>
+            <heading>Spanske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>866</class>
+            <heading>Spanske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>867</class>
+            <heading>Spansk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>868</class>
+            <heading>Spanske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>869</class>
+            <heading>Portugisisk og galisisk litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>87</class>
+            <heading>Latin og italiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>870</class>
+            <heading>Latinsk litteratur og beslektede italiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>871</class>
+            <heading>Latinsk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>872</class>
+            <heading>Latinsk dramatisk poesi og drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>873</class>
+            <heading>Latinsk episk poesi og fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>874</class>
+            <heading>Latinsk lyrisk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>875</class>
+            <heading>Latinske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>876</class>
+            <heading>Latinske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>877</class>
+            <heading>Latinsk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>878</class>
+            <heading>Latinske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>879</class>
+            <heading>Andre italiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>88</class>
+            <heading>Klassisk gresk og nygresk litteratur</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>880</class>
+            <heading>Klassisk gresk litteratur og beslektede greske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>881</class>
+            <heading>Klassisk gresk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>882</class>
+            <heading>Klassisk gresk dramatisk poesi og drama</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>883</class>
+            <heading>Klassisk gresk episk poesi og fiksjon</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>884</class>
+            <heading>Klassisk gresk lyrisk poesi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>885</class>
+            <heading>Klassisk greske taler</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>886</class>
+            <heading>Klassisk greske brev</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>887</class>
+            <heading>Klassisk gresk humor og satire</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>888</class>
+            <heading>Klassisk greske diverse skrifter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>889</class>
+            <heading>Nygresk litteratur</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>89</class>
+            <heading>Andre litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>890</class>
+            <heading>Andre bestemte språks og språkgruppers litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>891</class>
+            <heading>Østindoeuropeiske og keltiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>892</class>
+            <heading>Afroasiatiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>893</class>
+            <heading>Ikke-semittiske afro-asiatiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>894</class>
+            <heading>Altaiske, uralske, hyperboreiske, dravidiske språks litteraturer; diverse sørasiatiske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>895</class>
+            <heading>Litteraturer på øst- og sørøstasiatiske språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>896</class>
+            <heading>Afrikanske språks litteraturer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>897</class>
+            <heading>Litteraturer på nordamerikanske urbefolkningers språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>898</class>
+            <heading>Litteraturer på søramerikanske urbefolkningers språk</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>899</class>
+            <heading>Litteraturer på ikke-austronesiske språk i Oseania, på austronesiske språk, på diverse språk</heading>
+        </record>
+    </discipline>
+    <discipline>
+        <record>
+            <level>1</level>
+            <class>9</class>
+            <heading>Historie og geografi</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>90</class>
+            <heading>Historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>900</class>
+            <heading>Historie, geografi og deres hjelpefag</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>901</class>
+            <heading>Filosofi og teori innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>902</class>
+            <heading>Diverse innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>903</class>
+            <heading>Ordbøker, leksika, konkordanser innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>904</class>
+            <heading>Samlede beretninger om ulike begivenheter</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>905</class>
+            <heading>Periodika innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>906</class>
+            <heading>Organisasjoner og ledelse innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>907</class>
+            <heading>Utdanning og opplæring, forskning, lignende emner innen historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>908</class>
+            <heading>Historie som gjelder bestemte persongrupper</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>909</class>
+            <heading>Verdenshistorie</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>91</class>
+            <heading>Geografi og reiser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>910</class>
+            <heading>Geografi og reiser</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>911</class>
+            <heading>Historisk geografi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>912</class>
+            <heading>Grafiske framstillinger av jordas overflate og av himmellegemer utenfor jorda</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>913</class>
+            <heading>Geografi og reiser i oldtiden</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>914</class>
+            <heading>Geografi og reiser i Europa</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>915</class>
+            <heading>Geografi og reiser i Asia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>916</class>
+            <heading>Geografi og reiser i Afrika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>917</class>
+            <heading>Geografi og reiser i Nord-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>918</class>
+            <heading>Geografi og reiser i Sør-Amerika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>919</class>
+            <heading>Geografi og reiser i Australasia, stillehavsøyene, atlanterhavsøyene, arktiske øyer, Antarktis, himmellegemer utenfor jorda</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>92</class>
+            <heading>Biografi og genealogi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>920</class>
+            <heading>Biografi, genealogi, insignier</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>921</class>
+            <heading>Filosofer og psykologer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>922</class>
+            <heading>Kirkelige og religiøse personer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>923</class>
+            <heading>Personer knyttet til samfunnsvitenskapene</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>924</class>
+            <heading>Språkforskere og leksikografer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>925</class>
+            <heading>Forskere</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>926</class>
+            <heading>Personer knyttet til teknologi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>927</class>
+            <heading>Personer knyttet til kunst, idrett, underholdning</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>928</class>
+            <heading>Personer knyttet til litteratur, historie, biografi, genealogi</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>929</class>
+            <heading>Genealogi, navn, insignier</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>93</class>
+            <heading>Oldtiden (fram til ca. 499)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>930</class>
+            <heading>Oldtiden fram til ca. 499</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>931</class>
+            <heading>Kina fram til 420</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>932</class>
+            <heading>Egypt fram til 640</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>933</class>
+            <heading>Palestina fram til 70</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>934</class>
+            <heading>Sør-Asia fram til 647</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>935</class>
+            <heading>Mesopotamia fram til 637 og den iranske høyslette fram til 637</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>936</class>
+            <heading>Europa nord og vest for den italienske halvøy fram til ca. 499</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>937</class>
+            <heading>Den italienske halvøy fram til 476 og tilgrensende områder fram til 476</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>938</class>
+            <heading>Hellas fram til 323</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>939</class>
+            <heading>Andre oldtidskulturer</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>94</class>
+            <heading>Europas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>940</class>
+            <heading>Europas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>941</class>
+            <heading>De britiske øyer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>942</class>
+            <heading>England og Wales</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>943</class>
+            <heading>Tyskland og sentraleuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>944</class>
+            <heading>Frankrike og Monaco</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>945</class>
+            <heading>Italia, San Marino, Vatikanstaten, Malta</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>946</class>
+            <heading>Spania, Andorra, Gibraltar, Portugal</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>947</class>
+            <heading>Russland og østeuropeiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>948</class>
+            <heading>Skandinavia og Finland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>949</class>
+            <heading>Andre deler av Europa</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>95</class>
+            <heading>Asias historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>950</class>
+            <heading>Asias historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>951</class>
+            <heading>Kina og tilgrensende områder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>952</class>
+            <heading>Japan</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>953</class>
+            <heading>Den arabiske halvøy og tilgrensende områder</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>954</class>
+            <heading>India og sørasiatiske naboland</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>955</class>
+            <heading>Iran</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>956</class>
+            <heading>Midtøsten</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>957</class>
+            <heading>Sibir (asiatisk Russland)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>958</class>
+            <heading>Sentral-Asia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>959</class>
+            <heading>Sørøst-Asia</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>96</class>
+            <heading>Afrikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>960</class>
+            <heading>Afrikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>961</class>
+            <heading>Tunisia og Libya</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>962</class>
+            <heading>Egypt og Sudan</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>963</class>
+            <heading>Etiopia og Eritrea</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>964</class>
+            <heading>Marokko, Ceuta, Melilla, Vest-Sahara, Kanariøyene</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>965</class>
+            <heading>Algerie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>966</class>
+            <heading>Vest-Afrika og øyene utenfor kysten</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>967</class>
+            <heading>Sentral-Afrika og øyene utenfor kysten</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>968</class>
+            <heading>Republikken Sør-Afrika og naboland i det sørlige Afrika</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>969</class>
+            <heading>Øyene i det sørlige Indiahavet</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>97</class>
+            <heading>Nord-Amerikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>970</class>
+            <heading>Nord-Amerikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>971</class>
+            <heading>Canada</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>972</class>
+            <heading>Mexico, Mellom-Amerika, Vestindia, Bermuda</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>973</class>
+            <heading>USA</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>974</class>
+            <heading>Det nordøstlige USA (delstater i New England og Middle Atlantic-regionen)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>975</class>
+            <heading>Det sørøstlige USA (delstater i South Atlantic-regionen)</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>976</class>
+            <heading>Det sør-sentrale USA</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>977</class>
+            <heading>Det nord-sentrale USA</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>978</class>
+            <heading>Det vestlige USA</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>979</class>
+            <heading>Great Basin og Pacific Slope i USA</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>98</class>
+            <heading>Sør-Amerikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>980</class>
+            <heading>Sør-Amerikas historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>981</class>
+            <heading>Brasil</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>982</class>
+            <heading>Argentina</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>983</class>
+            <heading>Chile</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>984</class>
+            <heading>Bolivia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>985</class>
+            <heading>Peru</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>986</class>
+            <heading>Colombia og Ecuador</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>987</class>
+            <heading>Venezuela</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>988</class>
+            <heading>Guiana</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>989</class>
+            <heading>Paraguay og Uruguay</heading>
+        </record>
+        <record>
+            <level>2</level>
+            <class>99</class>
+            <heading>Andre områders historie</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>990</class>
+            <heading>Historie vedrørende Australasia, stillehavsøyene, atlanterhavsøyene, arktiske øyer, Antarktis, himmellegemer utenfor jorda</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>993</class>
+            <heading>New Zealand</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>994</class>
+            <heading>Australia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>995</class>
+            <heading>Ny-Guinea og naboland i Melanesia</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>996</class>
+            <heading>Polynesia og andre stillehavsøyer</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>997</class>
+            <heading>Atlanterhavsøyene</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>998</class>
+            <heading>Arktiske øyer og Antarktis</heading>
+        </record>
+        <record>
+            <level>3</level>
+            <class>999</class>
+            <heading>Himmellegemer utenfor jorda</heading>
+        </record>
+    </discipline>   
+</ddc23nor11022013>
