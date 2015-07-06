@@ -33,13 +33,11 @@ public class DeweyController {
     })
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<DeweyWrapper> dewey(@RequestParam(value = "class", required = false) String classValue, @RequestParam(value = "language", required = false) String language) {
-        if (StringUtils.isNumeric(classValue)) {
-            if (language == null || language.isEmpty() || "".equalsIgnoreCase(language)) language = "no";
+        if (language == null || language.isEmpty() || "".equalsIgnoreCase(language)) language = "no";
 
-            DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
-            if (deweyWrapper != null && (deweyWrapper.getDeweyList().size() > 0 || deweyWrapper.getDeweyPathList().size() > 0)) {
-                return new ResponseEntity<>(deweyWrapper, HttpStatus.OK);
-            }
+        DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
+        if (deweyWrapper != null && (deweyWrapper.getDeweyList().size() > 0 || deweyWrapper.getDeweyPathList().size() > 0)) {
+            return new ResponseEntity<>(deweyWrapper, HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
