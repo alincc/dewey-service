@@ -33,6 +33,10 @@ public class DeweyController {
     })
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<DeweyWrapper> dewey(@RequestParam(value = "class", required = false) String classValue, @RequestParam(value = "language", required = false) String language) {
+        if (classValue != null && !StringUtils.isNumeric(classValue)) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+
         if (language == null || language.isEmpty() || "".equalsIgnoreCase(language)) language = "no";
 
         DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
