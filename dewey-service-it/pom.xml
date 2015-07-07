@@ -13,14 +13,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>no.nb.microservice.dewey</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>dewey-service-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>no.nb.microservice.dewey</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>dewey-service-rest</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <!-- Testing -->
         <dependency>
