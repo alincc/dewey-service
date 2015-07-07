@@ -14,8 +14,8 @@ import javax.xml.bind.Unmarshaller;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by raymondk on 6/29/15.
@@ -55,7 +55,7 @@ public class DeweyServiceImpl implements IDeweyService {
                 }
             } else {
                 level = String.valueOf(classValue.length() + 1);
-                int disciplineNumber = Integer.valueOf(classValue.substring(0, 1));
+                int disciplineNumber = Integer.parseInt(classValue.substring(0, 1));
                 Discipline discipline = deweyRoot.getDisciplines().get(disciplineNumber);
                 getRecords(deweyList, discipline);
             }
@@ -90,7 +90,7 @@ public class DeweyServiceImpl implements IDeweyService {
         }
     }
 
-    public HashMap<String, Integer> getCount() {
+    public Map<String, Integer> getCount() {
         return null;
     }
 

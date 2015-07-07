@@ -10,7 +10,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -33,14 +32,17 @@ public class DeweyController {
     })
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<DeweyWrapper> dewey(@RequestParam(value = "class", required = false) String classValue, @RequestParam(value = "language", required = false) String language) {
+        String lang = language;
         if (classValue != null && !StringUtils.isNumeric(classValue)) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
-        if (language == null || language.isEmpty() || "".equalsIgnoreCase(language)) language = "no";
+        if (lang == null || "".equalsIgnoreCase(lang)) {
+            lang = "no";
+        }
 
-        DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
-        if (deweyWrapper != null && (deweyWrapper.getDeweyList().size() > 0 || deweyWrapper.getDeweyPathList().size() > 0)) {
+        DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, lang);
+        if (deweyWrapper != null && (!deweyWrapper.getDeweyList().isEmpty() || !deweyWrapper.getDeweyPathList().isEmpty())) {
             return new ResponseEntity<>(deweyWrapper, HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
