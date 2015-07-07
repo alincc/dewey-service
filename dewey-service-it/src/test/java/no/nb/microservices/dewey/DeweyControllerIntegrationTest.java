@@ -66,7 +66,7 @@ public class DeweyControllerIntegrationTest {
     }
 
     @Test
-    public void shouldReturnDeweyNotFoundIfWrongValues() {
+    public void shouldReturnDeweyNotFoundIfWrongParameterValues() {
         ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
                 "http://localhost:" + port + "/?class=wrongClassValue&language=wrongLanguageValue", HttpMethod.GET,
                 new HttpEntity<Void>(headers), DeweyWrapper.class);
@@ -75,7 +75,7 @@ public class DeweyControllerIntegrationTest {
     }
 
     @Test
-    public void shouldReturnDeweyNotFundIfWrongParameterNames() {
+    public void shouldReturnDeweyNotFoundIfWrongParameterNames() {
         ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
                 "http://localhost:" + port + "/?wrongParameterName1=001&wrongParameterName2=no", HttpMethod.GET,
                 new HttpEntity<Void>(headers), DeweyWrapper.class);

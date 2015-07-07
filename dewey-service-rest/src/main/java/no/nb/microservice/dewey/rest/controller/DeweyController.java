@@ -26,7 +26,7 @@ public class DeweyController {
     @Autowired
     private IDeweyService iDeweyService;
 
-    @ApiOperation(value = "Get Dewey", response = String.class)
+    @ApiOperation(value = "Get Dewey", response = String.class, httpMethod = "GET")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successful response"),
             @ApiResponse(code = 400, message = "Not Found")
