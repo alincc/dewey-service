@@ -40,10 +40,6 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>no.nb.microservices.catalogsearch</groupId>
-            <artifactId>catalog-search-service-model</artifactId>
-        </dependency>
-        <dependency>
             <groupId>no.nb.commons</groupId>
             <artifactId>commons-web-utils</artifactId>
             <version>-14</version>
