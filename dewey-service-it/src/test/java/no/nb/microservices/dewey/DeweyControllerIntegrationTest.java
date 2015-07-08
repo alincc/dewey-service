@@ -21,7 +21,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.client.RestTemplate;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -59,9 +58,9 @@ public class DeweyControllerIntegrationTest {
     @Test
     public void shouldReturnDeweyFound() {
         ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
-                "http://localhost:" + port + "/?class=001&language=no", HttpMethod.GET,
+                "http://localhost:" + port + "/?class=05&language=no", HttpMethod.GET,
                 new HttpEntity<Void>(headers), DeweyWrapper.class);
-
+        System.out.println(entity.getStatusCode());
         assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
     }
 
@@ -75,11 +74,11 @@ public class DeweyControllerIntegrationTest {
     }
 
     @Test
-    public void shouldReturnDeweyNotFoundIfWrongParameterNames() {
+    public void shouldReturnDeweyFoundIfWrongParameterNames() {
         ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
-                "http://localhost:" + port + "/?wrongParameterName1=001&wrongParameterName2=no", HttpMethod.GET,
+                "http://localhost:" + port + "/?wrongParameterName1=01&wrongParameterName2=no", HttpMethod.GET,
                 new HttpEntity<Void>(headers), DeweyWrapper.class);
 
-        assertTrue("Status code should be 400", entity.getStatusCode().is4xxClientError());
+        assertTrue("Status code should be 200", entity.getStatusCode().is2xxSuccessful());
     }
 }
