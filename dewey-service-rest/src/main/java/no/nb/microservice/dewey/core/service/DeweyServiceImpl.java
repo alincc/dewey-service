@@ -45,7 +45,7 @@ public class DeweyServiceImpl implements IDeweyService {
     public DeweyWrapper getDeweyWrapper(String classValue, String language) {
         if (deweyRoot != null) {
             this.classValue = classValue;
-            this.language = language;
+            this.language = setCorrectLanguage(language);
             this.deweyWrapper = new DeweyWrapper();
             List<Dewey> deweyList = new ArrayList<>();
 
@@ -114,5 +114,14 @@ public class DeweyServiceImpl implements IDeweyService {
             }
         }
         return null;
+    }
+
+    private String setCorrectLanguage(String lang) {
+        if (lang != null) {
+            if ("no".equalsIgnoreCase(lang) || "en".equalsIgnoreCase(lang)) {
+                return lang;
+            }
+        }
+        return "no";
     }
 }

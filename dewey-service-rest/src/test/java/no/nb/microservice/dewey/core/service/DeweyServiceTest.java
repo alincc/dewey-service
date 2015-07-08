@@ -97,6 +97,13 @@ public class DeweyServiceTest {
     }
 
     @Test
+    public void shouldGiveNorwegianTranslationWhenBogusLanguage() {
+        DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper("05", "bogus");
+        Dewey dewey = deweyWrapper.getDeweyList().get(4);
+        assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
+    }
+
+    @Test
     public void shouldContainCorrectNumberOfTrails() {
         DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper("05", "no");
         assertEquals(2, deweyWrapper.getDeweyPathList().size());

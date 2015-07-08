@@ -7,8 +7,6 @@ import com.wordnik.swagger.annotations.ApiResponses;
 import no.nb.microservice.dewey.core.service.IDeweyService;
 import no.nb.microservice.dewey.rest.model.DeweyWrapper;
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Api(value = "/", description = "Dewey API")
 public class DeweyController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(DeweyController.class);
-
     private final IDeweyService iDeweyService;
 
     @Autowired
@@ -39,10 +35,6 @@ public class DeweyController {
     public ResponseEntity<DeweyWrapper> dewey(@RequestParam(value = "class", required = false) String classValue, @RequestParam(value = "language", required = false) String language) {
         if (classValue != null && !StringUtils.isNumeric(classValue)) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        }
-
-        if (language == null || "".equalsIgnoreCase(language)) {
-            language = "no";
         }
 
         DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
