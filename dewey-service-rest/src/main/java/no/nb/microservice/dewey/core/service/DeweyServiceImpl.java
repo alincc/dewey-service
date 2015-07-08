@@ -117,10 +117,8 @@ public class DeweyServiceImpl implements IDeweyService {
     }
 
     private String setCorrectLanguage(String lang) {
-        if (lang != null) {
-            if ("no".equalsIgnoreCase(lang) || "en".equalsIgnoreCase(lang)) {
-                return lang;
-            }
+        if (lang != null && ("no".equalsIgnoreCase(lang) || "en".equalsIgnoreCase(lang))) {
+            return lang;
         }
         return "no";
     }
