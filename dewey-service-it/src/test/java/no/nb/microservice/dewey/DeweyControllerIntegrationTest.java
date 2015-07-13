@@ -1,7 +1,6 @@
-package no.nb.microservices.dewey;
+package no.nb.microservice.dewey;
 
 import no.nb.commons.web.util.UserUtils;
-import no.nb.microservice.dewey.Application;
 import no.nb.microservice.dewey.core.service.IDeweyService;
 import no.nb.microservice.dewey.rest.model.DeweyWrapper;
 import org.junit.Before;
@@ -18,9 +17,15 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.context.WebApplicationContext;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -60,8 +65,42 @@ public class DeweyControllerIntegrationTest {
         ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
                 "http://localhost:" + port + "/?class=05&language=no", HttpMethod.GET,
                 new HttpEntity<Void>(headers), DeweyWrapper.class);
+        assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void shouldReturnDeweyFoundWhenClassIsNull() {
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
+                "http://localhost:" + port + "/?language=no", HttpMethod.GET,
+                new HttpEntity<Void>(headers), DeweyWrapper.class);
         System.out.println(entity.getStatusCode());
         assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void shouldReturnDeweyFoundWhenLanguageIsNull() {
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
+                "http://localhost:" + port + "/?class=05", HttpMethod.GET,
+                new HttpEntity<Void>(headers), DeweyWrapper.class);
+        assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void shouldReturnDeweyFoundWhenClassAndLanguageIsNull() {
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
+                "http://localhost:" + port + "/", HttpMethod.GET,
+                new HttpEntity<Void>(headers), DeweyWrapper.class);
+        assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void shouldReturnDeweyFoundButOnlyWithTrail() {
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(
+                "http://localhost:" + port + "/?class=05555&language=no", HttpMethod.GET,
+                new HttpEntity<Void>(headers), DeweyWrapper.class);
+        assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
+        assertTrue("DeweyList should be empty", entity.getBody().getDeweyList().isEmpty());
+        assertFalse("DeweyPathList should not be empty", entity.getBody().getDeweyPathList().isEmpty());
     }
 
     @Test

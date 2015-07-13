@@ -4,17 +4,17 @@ import no.nb.microservice.dewey.rest.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.MessageSource;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -28,21 +28,20 @@ public class DeweyServiceImpl implements IDeweyService {
     private String classValue;
     private String language;
     private String level;
-
-    @Value("${spring.dewey.deweyListPath}")
     private String deweyListPath;
+    MessageSource messageSource;
 
     @Autowired
-    IMessageService messageService;
-
-    @PostConstruct
-    public void init() {
-        this.deweyRoot = getRoot();
-        this.level = "1"; //Default level
+    public DeweyServiceImpl(MessageSource messageSource) {
+        super();
+        this.messageSource = messageSource;
     }
 
     @Override
-    public DeweyWrapper getDeweyWrapper(String classValue, String language) {
+    public DeweyWrapper getDeweyWrapper(String deweyListPath, String classValue, String language) {
+        this.deweyListPath = deweyListPath;
+        populateDeweyRoot();
+
         if (deweyRoot != null) {
             this.classValue = classValue;
             this.language = setCorrectLanguage(language);
@@ -50,6 +49,7 @@ public class DeweyServiceImpl implements IDeweyService {
             List<Dewey> deweyList = new ArrayList<>();
 
             if (classValue == null || classValue.isEmpty()) {
+                level = "1";
                 for (Discipline discipline : deweyRoot.getDisciplines()) {
                     getRecords(deweyList, discipline);
                 }
@@ -68,11 +68,11 @@ public class DeweyServiceImpl implements IDeweyService {
         for (Record record : discipline.getRecord()) {
             if (classValue == null) {
                 if (record.getLevel().equalsIgnoreCase(level)) {
-                    deweyList.add(new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageService.getLanguageTranslation(record.getDeweyClass(), language), 0));
+                    deweyList.add(new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageSource.getMessage(record.getDeweyClass(), null, new Locale(language)), 0));
                 }
             } else {
                 if (record.getLevel().equalsIgnoreCase(level) && record.getDeweyClass().startsWith(classValue)) {
-                    deweyList.add(new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageService.getLanguageTranslation(record.getDeweyClass(), language), 0));
+                    deweyList.add(new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageSource.getMessage(record.getDeweyClass(), null, new Locale(language)), 0));
                 }
             }
             getTrail(record);
@@ -83,7 +83,7 @@ public class DeweyServiceImpl implements IDeweyService {
         if (classValue != null) {
             for (int i = 1; i <= classValue.length(); i++) {
                 if (record.getDeweyClass().equals(classValue.substring(0, i))) {
-                    Dewey dewey = new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageService.getLanguageTranslation(record.getDeweyClass(), language), 0);
+                    Dewey dewey = new Dewey(Integer.parseInt(record.getLevel()), record.getDeweyClass(), messageSource.getMessage(record.getDeweyClass(), null, new Locale(language)), 0);
                     deweyWrapper.getDeweyPathList().add(dewey);
                 }
             }
@@ -94,14 +94,14 @@ public class DeweyServiceImpl implements IDeweyService {
         return null;
     }
 
-    public DeweyRoot getRoot() {
+    public void populateDeweyRoot() {
         InputStream is = null;
         try {
             JAXBContext context = JAXBContext.newInstance(DeweyRoot.class, Discipline.class, Record.class);
             Unmarshaller u = context.createUnmarshaller();
             ClassPathResource cpr = new ClassPathResource(deweyListPath);
             is = cpr.getInputStream();
-            return (DeweyRoot) u.unmarshal(is);
+            this.deweyRoot = (DeweyRoot) u.unmarshal(is);
         } catch (Exception ex) {
             LOGGER.error("Error loading " + deweyListPath, ex);
         } finally {
@@ -113,7 +113,6 @@ public class DeweyServiceImpl implements IDeweyService {
                 }
             }
         }
-        return null;
     }
 
     private String setCorrectLanguage(String lang) {

@@ -7,5 +7,5 @@ import no.nb.microservice.dewey.rest.model.DeweyWrapper;
  */
 public interface IDeweyService {
 
-    DeweyWrapper getDeweyWrapper(String classValue, String language);
+    DeweyWrapper getDeweyWrapper(String deweyListPath, String classValue, String language);
 }

@@ -1,34 +1,42 @@
 package no.nb.microservice.dewey.rest.controller;
 
 import no.nb.microservice.dewey.Application;
+import no.nb.microservice.dewey.core.service.DeweyServiceImpl;
 import no.nb.microservice.dewey.core.service.IDeweyService;
 import no.nb.microservice.dewey.rest.model.Dewey;
 import no.nb.microservice.dewey.rest.model.DeweyWrapper;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.context.MessageSource;
+import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+import org.springframework.test.util.ReflectionTestUtils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static reactor.core.composable.spec.Promises.when;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Application.class)
-@WebAppConfiguration
+@RunWith(MockitoJUnitRunner.class)
 public class DeweyControllerTest {
 
-    @Autowired
+    @Mock
     private IDeweyService iDeweyService;
-
     private DeweyController deweyController;
+    private String deweyListPath = "/dewey-list-TEST.xml";
+
 
     @Before
     public void setup() {
+        iDeweyService = new DeweyServiceImpl(messageSource());
         deweyController = new DeweyController(iDeweyService);
+        ReflectionTestUtils.setField(deweyController, "deweyListPath", deweyListPath);
     }
 
     @Test
@@ -67,5 +75,20 @@ public class DeweyControllerTest {
         DeweyWrapper deweyWrapper = entity.getBody();
         Dewey dewey = deweyWrapper.getDeweyList().get(4);
         assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
+    }
+
+    @Test
+    public void shouldReturnDeweyWithNorwegianLanguageWhenBogusLanguageParameterIsSent() {
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "bogus");
+        DeweyWrapper deweyWrapper = entity.getBody();
+        Dewey dewey = deweyWrapper.getDeweyList().get(4);
+        assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
+    }
+
+    private MessageSource messageSource() {
+        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
+        messageSource.setBasenames("classpath:i18n/dewey");
+        messageSource.setDefaultEncoding("UTF-8");
+        return messageSource;
     }
 }
