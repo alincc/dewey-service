@@ -4,6 +4,7 @@ import no.nb.microservice.dewey.rest.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.MessageSource;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
@@ -28,8 +29,10 @@ public class DeweyServiceImpl implements IDeweyService {
     private String classValue;
     private String language;
     private String level;
-    private String deweyListPath;
     MessageSource messageSource;
+
+    @Value("${spring.dewey.deweyListPath}")
+    private String deweyListPath;
 
     @Autowired
     public DeweyServiceImpl(MessageSource messageSource) {
@@ -38,8 +41,7 @@ public class DeweyServiceImpl implements IDeweyService {
     }
 
     @Override
-    public DeweyWrapper getDeweyWrapper(String deweyListPath, String classValue, String language) {
-        this.deweyListPath = deweyListPath;
+    public DeweyWrapper getDeweyWrapper(String classValue, String language) {
         populateDeweyRoot();
 
         if (deweyRoot != null) {

@@ -36,7 +36,7 @@ public class DeweyControllerTest {
     public void setup() {
         iDeweyService = new DeweyServiceImpl(messageSource());
         deweyController = new DeweyController(iDeweyService);
-        ReflectionTestUtils.setField(deweyController, "deweyListPath", deweyListPath);
+        ReflectionTestUtils.setField(iDeweyService, "deweyListPath", deweyListPath);
     }
 
     @Test
