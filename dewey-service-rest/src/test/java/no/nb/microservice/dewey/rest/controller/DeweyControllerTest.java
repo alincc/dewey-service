@@ -5,7 +5,6 @@ import no.nb.microservice.dewey.core.service.DeweyServiceImpl;
 import no.nb.microservice.dewey.core.service.IDeweyService;
 import no.nb.microservice.dewey.rest.model.Dewey;
 import no.nb.microservice.dewey.rest.model.DeweyWrapper;
-import no.nb.microservices.catalogsearch.rest.model.search.SearchResource;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -35,7 +34,6 @@ public class DeweyControllerTest {
     private IDeweyService iDeweyService;
     private DeweyController deweyController;
     private String deweyListPath = "/dewey-list-TEST.xml";
-    private SearchResource searchResource;
 
 
     @Before
@@ -43,7 +41,6 @@ public class DeweyControllerTest {
         iDeweyService = new DeweyServiceImpl(messageSource());
         deweyController = new DeweyController(iDeweyService);
         ReflectionTestUtils.setField(iDeweyService, "deweyListPath", deweyListPath);
-        searchResource = new SearchResource();
 
         MockHttpServletRequest request = new MockHttpServletRequest("GET", "/");
         ServletRequestAttributes attributes = new ServletRequestAttributes(request);
@@ -57,21 +54,21 @@ public class DeweyControllerTest {
 
     @Test
     public void shouldReturnDeweyWrapperWithNonEmptyDeweyList() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null, searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
         DeweyWrapper deweyWrapper = entity.getBody();
         assertTrue("List of dewey should contain more than one item", !deweyWrapper.getDeweyList().isEmpty());
     }
 
     @Test
     public void shouldReturnDeweyWrapperWithNonEmptyDeweyPathList() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null, searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
         DeweyWrapper deweyWrapper = entity.getBody();
         assertTrue("List of dewey should contain more than one item", !deweyWrapper.getDeweyPathList().isEmpty());
     }
 
     @Test
     public void shouldReturnOnlyDeweyPathList() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("456123", "no", searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("456123", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertTrue("DeweyList should be empty", deweyWrapper.getDeweyList().isEmpty());
         assertTrue("DeweyPathList should not be empty", !deweyWrapper.getDeweyPathList().isEmpty());
@@ -79,7 +76,7 @@ public class DeweyControllerTest {
 
     @Test
     public void shouldReturnNotFound() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("abc", "no", searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("abc", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertTrue("Status code should be 400", entity.getStatusCode().is4xxClientError());
         assertTrue("Should be null", deweyWrapper == null);
@@ -87,7 +84,7 @@ public class DeweyControllerTest {
 
     @Test
     public void shouldReturnDeweyWithNorwegianLanguageWhenNoLanguageParameterIsSent() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null, searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
         DeweyWrapper deweyWrapper = entity.getBody();
         Dewey dewey = deweyWrapper.getDeweyList().get(4);
         assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
@@ -95,7 +92,7 @@ public class DeweyControllerTest {
 
     @Test
     public void shouldReturnDeweyWithNorwegianLanguageWhenBogusLanguageParameterIsSent() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "bogus", searchResource);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "bogus");
         DeweyWrapper deweyWrapper = entity.getBody();
         Dewey dewey = deweyWrapper.getDeweyList().get(4);
         assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());

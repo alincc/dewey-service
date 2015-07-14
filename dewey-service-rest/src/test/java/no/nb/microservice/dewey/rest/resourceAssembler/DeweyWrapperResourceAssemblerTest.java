@@ -52,56 +52,56 @@ public class DeweyWrapperResourceAssemblerTest {
 
     @Test
     public void deweyWrapperShouldHaveSelfLink1() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey(null, "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey(null, "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have SELF link", deweyWrapper.getLink("self").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveFirstLink1() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey(null, "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey(null, "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have FIRST link", deweyWrapper.getLink("first").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveSelfLink2() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("0", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("0", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have SELF link", deweyWrapper.getLink("self").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveFirstLink2() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("0", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("0", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have FIRST link", deweyWrapper.getLink("first").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveSelfLink3() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have SELF link", deweyWrapper.getLink("self").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveFirstLink3() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have FIRST link", deweyWrapper.getLink("first").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveSelfLink4() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("054", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("054", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have SELF link", deweyWrapper.getLink("self").getHref().isEmpty());
     }
 
     @Test
     public void deweyWrapperShouldHaveFirstLink4() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("054", "no", null);
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("054", "no");
         DeweyWrapper deweyWrapper = entity.getBody();
         assertFalse("Should have FIRST link", deweyWrapper.getLink("first").getHref().isEmpty());
     }

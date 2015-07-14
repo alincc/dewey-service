@@ -10,7 +10,6 @@ import no.nb.microservice.dewey.rest.model.DeweyWrapper;
 import no.nb.microservice.dewey.rest.resourceAssembler.DeweyPathResourceAssembler;
 import no.nb.microservice.dewey.rest.resourceAssembler.DeweyResourceAssembler;
 import no.nb.microservice.dewey.rest.resourceAssembler.DeweyWrapperResourceAssembler;
-import no.nb.microservices.catalogsearch.rest.model.search.SearchResource;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -36,8 +35,7 @@ public class DeweyController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<DeweyWrapper> dewey(
             @RequestParam(value = "class", required = false) String classValue,
-            @RequestParam(value = "language", required = false, defaultValue = "no") String language,
-            SearchResource searchResource) {
+            @RequestParam(value = "language", required = false, defaultValue = "no") String language) {
         if (classValue == null || StringUtils.isNumeric(classValue)) {
             DeweyWrapper deweyWrapper = iDeweyService.getDeweyWrapper(classValue, language);
             if (deweyWrapper != null && (!deweyWrapper.getDeweyList().isEmpty() || !deweyWrapper.getDeweyPathList().isEmpty())) {
