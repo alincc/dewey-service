@@ -29,7 +29,7 @@ public class DeweyServiceImpl implements IDeweyService {
     private String classValue;
     private String language;
     private String level;
-    MessageSource messageSource;
+    private MessageSource messageSource;
 
     @Value("${spring.dewey.deweyListPath}")
     private String deweyListPath;
@@ -93,6 +93,7 @@ public class DeweyServiceImpl implements IDeweyService {
     }
 
     public Map<String, Integer> getCount() {
+
         return null;
     }
 

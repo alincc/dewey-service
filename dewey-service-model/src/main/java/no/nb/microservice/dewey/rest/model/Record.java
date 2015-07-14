@@ -6,16 +6,19 @@
 
 package no.nb.microservice.dewey.rest.model;
 
+import org.springframework.hateoas.ResourceSupport;
+
 import javax.xml.bind.annotation.XmlElement;
 
 /**
  *
  * @author jimn
  */
-public class Record {
+public class Record extends ResourceSupport {
     private String level;
     private String deweyClass;
     private String heading;
+    private String count;
 
     @XmlElement(name = "level")
     public String getLevel() {
@@ -43,5 +46,12 @@ public class Record {
     public void setHeading(String heading) {
         this.heading = heading;
     }
-        
+
+    public String getCount() {
+        return count;
+    }
+
+    public void setCount(String count) {
+        this.count = count;
+    }
 }

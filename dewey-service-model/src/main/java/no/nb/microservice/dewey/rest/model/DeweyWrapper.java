@@ -6,6 +6,8 @@
 
 package no.nb.microservice.dewey.rest.model;
 
+import org.springframework.hateoas.ResourceSupport;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +15,7 @@ import java.util.List;
  *
  * @author jimn
  */
-public class DeweyWrapper {
+public class DeweyWrapper extends ResourceSupport {
     private List<Dewey> deweyList;
     private List<Dewey> deweyPathList;
 

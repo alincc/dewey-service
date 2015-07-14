@@ -1,9 +1,11 @@
 package no.nb.microservice.dewey.rest.model;
 
+import org.springframework.hateoas.ResourceSupport;
+
 /**
  * Created by raymondk on 6/25/15.
  */
-public class Dewey {
+public class Dewey extends ResourceSupport {
     private int level;
     private String classValue;
     private String heading;
