@@ -1,4 +1,4 @@
-package no.nb.microservice.dewey.rest.resourceAssembler;
+package no.nb.microservice.dewey.rest.resourceassembler;
 
 import no.nb.microservice.dewey.rest.model.Dewey;
 import org.springframework.data.domain.Pageable;
@@ -10,9 +10,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.web.util.UriComponentsBuilder;
 
 /**
- * Created by raymondk on 7/14/15.
+ * Created by raymondk on 7/13/15.
  */
-public class DeweyPathResourceAssembler implements ResourceAssembler<Dewey, Dewey> {
+public class DeweyResourceAssembler implements ResourceAssembler<Dewey, Dewey> {
 
     private final HateoasPageableHandlerMethodArgumentResolver pageableResolver = new HateoasPageableHandlerMethodArgumentResolver();
 
@@ -20,6 +20,22 @@ public class DeweyPathResourceAssembler implements ResourceAssembler<Dewey, Dewe
     public Dewey toResource(Dewey dewey) {
         UriTemplate self = new UriTemplate(ServletUriComponentsBuilder.fromCurrentContextPath().build().toString() + "/?class=" + dewey.getClassValue());
         dewey.add(createLink(self, null, Link.REL_SELF));
+
+        //Next Link
+        if (dewey.getClassValue().length() > 1) {
+            String prevClass = null;
+            if (dewey.getClassValue().length() > 2) {
+                prevClass = dewey.getClassValue().substring(0, dewey.getClassValue().length()-(dewey.getClassValue().length()-1));
+            }
+
+            String uri = ServletUriComponentsBuilder.fromCurrentContextPath().build().toString();
+            if (prevClass == null || prevClass.isEmpty()) {
+                uri += "/";
+            } else {
+                uri += "/?class=" + prevClass;
+            }
+            dewey.add(createLink(new UriTemplate(uri), null, Link.REL_PREVIOUS));
+        }
 
         return dewey;
     }

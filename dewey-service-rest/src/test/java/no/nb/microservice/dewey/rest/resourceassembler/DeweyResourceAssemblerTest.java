@@ -1,4 +1,4 @@
-package no.nb.microservice.dewey.rest.resourceAssembler;
+package no.nb.microservice.dewey.rest.resourceassembler;
 
 import no.nb.microservice.dewey.core.service.DeweyServiceImpl;
 import no.nb.microservice.dewey.core.service.IDeweyService;
@@ -13,7 +13,6 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.context.MessageSource;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
-import org.springframework.hateoas.Link;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.test.util.ReflectionTestUtils;

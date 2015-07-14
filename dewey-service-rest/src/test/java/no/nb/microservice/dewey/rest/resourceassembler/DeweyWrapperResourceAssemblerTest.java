@@ -1,9 +1,8 @@
-package no.nb.microservice.dewey.rest.resourceAssembler;
+package no.nb.microservice.dewey.rest.resourceassembler;
 
 import no.nb.microservice.dewey.core.service.DeweyServiceImpl;
 import no.nb.microservice.dewey.core.service.IDeweyService;
 import no.nb.microservice.dewey.rest.controller.DeweyController;
-import no.nb.microservice.dewey.rest.model.Dewey;
 import no.nb.microservice.dewey.rest.model.DeweyWrapper;
 import org.junit.After;
 import org.junit.Before;
