@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.context.MessageSource;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.hateoas.Link;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -23,8 +24,7 @@ import org.springframework.test.util.ReflectionTestUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import static reactor.core.composable.spec.Promises.when;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -53,49 +53,31 @@ public class DeweyControllerTest {
     }
 
     @Test
-    public void shouldReturnDeweyWrapperWithNonEmptyDeweyList() {
+    public void shouldReturnDeweyWrapper() {
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "no");
+        DeweyWrapper deweyWrapper = entity.getBody();
+        assertNotNull(deweyWrapper);
+    }
+
+    @Test
+    public void shouldReturnDeweyWrapperWhenNoClassIsProvided() {
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey(null, null);
+        DeweyWrapper deweyWrapper = entity.getBody();
+        assertNotNull(deweyWrapper);
+    }
+
+    @Test
+    public void shouldReturnNullWhenWrongClassIsProvided() {
+        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("bogus", null);
+        DeweyWrapper deweyWrapper = entity.getBody();
+        assertNull(deweyWrapper);
+    }
+
+    @Test
+    public void shouldReturnDeweyWrapperContainingResources() {
         ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
         DeweyWrapper deweyWrapper = entity.getBody();
-        assertTrue("List of dewey should contain more than one item", !deweyWrapper.getDeweyList().isEmpty());
-    }
-
-    @Test
-    public void shouldReturnDeweyWrapperWithNonEmptyDeweyPathList() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
-        DeweyWrapper deweyWrapper = entity.getBody();
-        assertTrue("List of dewey should contain more than one item", !deweyWrapper.getDeweyPathList().isEmpty());
-    }
-
-    @Test
-    public void shouldReturnOnlyDeweyPathList() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("456123", "no");
-        DeweyWrapper deweyWrapper = entity.getBody();
-        assertTrue("DeweyList should be empty", deweyWrapper.getDeweyList().isEmpty());
-        assertTrue("DeweyPathList should not be empty", !deweyWrapper.getDeweyPathList().isEmpty());
-    }
-
-    @Test
-    public void shouldReturnNotFound() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("abc", "no");
-        DeweyWrapper deweyWrapper = entity.getBody();
-        assertTrue("Status code should be 400", entity.getStatusCode().is4xxClientError());
-        assertTrue("Should be null", deweyWrapper == null);
-    }
-
-    @Test
-    public void shouldReturnDeweyWithNorwegianLanguageWhenNoLanguageParameterIsSent() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", null);
-        DeweyWrapper deweyWrapper = entity.getBody();
-        Dewey dewey = deweyWrapper.getDeweyList().get(4);
-        assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
-    }
-
-    @Test
-    public void shouldReturnDeweyWithNorwegianLanguageWhenBogusLanguageParameterIsSent() {
-        ResponseEntity<DeweyWrapper> entity = deweyController.dewey("05", "bogus");
-        DeweyWrapper deweyWrapper = entity.getBody();
-        Dewey dewey = deweyWrapper.getDeweyList().get(4);
-        assertEquals("Generelle periodika på fransk, oksitansk, katalansk", dewey.getHeading());
+        assertNotNull(deweyWrapper.getLinks());
     }
 
     private MessageSource messageSource() {

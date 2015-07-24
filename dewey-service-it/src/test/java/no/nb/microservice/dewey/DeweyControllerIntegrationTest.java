@@ -77,13 +77,13 @@ public class DeweyControllerIntegrationTest {
 
     @Test
     public void shouldReturnDeweyFound() {
-        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(baseURL + "/?class=05&langugae=no", HttpMethod.GET, new HttpEntity<Void>(headers), DeweyWrapper.class);
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(baseURL + "/?class=05&language=no", HttpMethod.GET, new HttpEntity<Void>(headers), DeweyWrapper.class);
         assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
     }
 
     @Test
     public void shouldReturnDeweyFoundWhenClassIsNull() {
-        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(baseURL + "/?langugae=no", HttpMethod.GET, new HttpEntity<Void>(headers), DeweyWrapper.class);
+        ResponseEntity<DeweyWrapper> entity = restTemplate.exchange(baseURL + "/?language=no", HttpMethod.GET, new HttpEntity<Void>(headers), DeweyWrapper.class);
         assertTrue("Status code should be 200 ", entity.getStatusCode().is2xxSuccessful());
     }
 
