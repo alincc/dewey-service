@@ -58,7 +58,7 @@ public class DeweyControllerIntegrationTest {
         headers = new HttpHeaders();
         headers.add(UserUtils.SSO_HEADER, "token");
         headers.add(UserUtils.REAL_IP_HEADER, "123.45.100.1");
-        baseURL = "http://localhost:" + port;
+        baseURL = "http://localhost:" + port + "/dewey";
 
         MockHttpServletRequest request = new MockHttpServletRequest("GET", "/");
         ServletRequestAttributes attributes = new ServletRequestAttributes(request);
