@@ -90,6 +90,7 @@ Desktop.ini
 /deploy/**
 /dewey-service-model/target
 /dewey-service-rest/target
+/dewey-service-it/target
 
 ######################
 # Logs
