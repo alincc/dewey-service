@@ -17,8 +17,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@Api(value = "/v1/dewey", description = "Dewey API")
-@RequestMapping(value = "/v1/dewey")
+@Api(value = "/dewey/v1", description = "Dewey API")
+@RequestMapping(value = "/dewey/v1")
 public class DeweyController {
     private final IDeweyService iDeweyService;
 
