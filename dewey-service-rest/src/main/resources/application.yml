@@ -1,7 +1,12 @@
 info:
-  app:
-    name: dewey-service
-    description: Microservice for Dewey
+    app:
+        name: dewey-service
+        description: Microservice for Dewey
+    build:
+        artifact: ${project.artifactId}
+        name: ${project.name}
+        description: ${project.description}
+        version: ${project.version}
 
 server:
   port: 8022
