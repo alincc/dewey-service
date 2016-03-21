@@ -6,6 +6,14 @@ info:
 server:
   port: 8022
 
+zipkin:
+    collector-hostname: localhost
+    
+monitoring:
+    hostname: localhost
+    port: 2003
+    period: 1  
+
 spring:
   dewey:
     deweyListPath: /dewey-list.xml
